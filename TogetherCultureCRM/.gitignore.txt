@@ -1,0 +1,74 @@
+﻿# Visual Studio files
+.vscode/
+*.code-workspace
+
+# User-specific files
+*.rsuser
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Auto-generated files
+*.obj
+*.exe
+*.pdb
+*.dll
+*.log
+*.vspscc
+*.vssscc
+*.cache
+*.csproj.user
+*.csproj.vspscc
+*.csproj.vssscc
+
+# Build folders
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+out/
+
+# Packages and Dependencies
+packages/
+node_modules/
+.vs/
+
+# Visual Studio database, libraries, and temp files
+*.cache
+*.pdb
+*.class
+*.ncb
+*.sdf
+*.opensdf
+*.VC.db
+
+# Publish and Generated Files
+*.publish.xml
+.publish/
+*.publishproj
+*.deployment
+
+# Web specific
+node_modules/
+bower_components/
+.DS_Store
+
+# Miscellaneous files
+*.log
+*.tmp
+*.tmp.*
+*.bak
+[Tt]emp/
+
+# Backup and temporary files
+*~.nib
+*.swp
+*.bak
+*.bak~
+*.sav
+*.tlb
+*.tlh
+*.tmp
+*.old
+*.error
+*.orig
