@@ -16,5 +16,10 @@ namespace TogetherCultureCRM.AdminAccess_Forms.Admin_Forms
         {
             InitializeComponent();
         }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
