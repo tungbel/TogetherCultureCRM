@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace TogetherCultureCRM.AdminAccess_Forms.Admin_Forms
 {
-    public partial class Reports : Form
+    public partial class MemberProgress : Form
     {
-        public Reports()
+        public MemberProgress()
         {
             InitializeComponent();
         }
 
-        private void lblWelcome_Click(object sender, EventArgs e)
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }

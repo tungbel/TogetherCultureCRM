@@ -93,6 +93,12 @@
     <Compile Include="AdminAccess_Forms\Admin_Forms\Events.Designer.cs">
       <DependentUpon>Events.cs</DependentUpon>
     </Compile>
+    <Compile Include="AdminAccess_Forms\Admin_Forms\MemberProgress.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminAccess_Forms\Admin_Forms\MemberProgress.Designer.cs">
+      <DependentUpon>MemberProgress.cs</DependentUpon>
+    </Compile>
     <Compile Include="AdminAccess_Forms\Admin_Forms\Members.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -232,6 +238,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AdminAccess_Forms\Admin_Forms\Events.resx">
       <DependentUpon>Events.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminAccess_Forms\Admin_Forms\MemberProgress.resx">
+      <DependentUpon>MemberProgress.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AdminAccess_Forms\Admin_Forms\Members.resx">
       <DependentUpon>Members.cs</DependentUpon>

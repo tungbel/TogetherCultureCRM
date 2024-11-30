@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using TogetherCultureCRM.DBConnections;
 
 namespace TogetherCultureCRM.AdminAccess_Forms.Admin_Forms
 {
@@ -15,6 +16,11 @@ namespace TogetherCultureCRM.AdminAccess_Forms.Admin_Forms
         public Digital()
         {
             InitializeComponent();
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }
