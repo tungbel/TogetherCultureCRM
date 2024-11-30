@@ -21,5 +21,15 @@ namespace TogetherCultureCRM.AdminAccess_Forms.Admin_Forms
         {
 
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox6_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

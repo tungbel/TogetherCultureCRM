@@ -30,17 +30,22 @@
         {
             this.lblWelcome = new System.Windows.Forms.Label();
             this.panelNested = new System.Windows.Forms.Panel();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.DeleteBtn = new System.Windows.Forms.Button();
+            this.Editbtn = new System.Windows.Forms.Button();
+            this.AddEventBtn = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.URL = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.Title = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.Upload_Date = new System.Windows.Forms.TextBox();
+            this.Content_Type = new System.Windows.Forms.Label();
+            this.textBox6 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panelNested.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -62,17 +67,22 @@
             this.panelNested.AutoScroll = true;
             this.panelNested.AutoSize = true;
             this.panelNested.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.panelNested.Controls.Add(this.button3);
-            this.panelNested.Controls.Add(this.button2);
-            this.panelNested.Controls.Add(this.button1);
+            this.panelNested.Controls.Add(this.label1);
+            this.panelNested.Controls.Add(this.Content_Type);
+            this.panelNested.Controls.Add(this.textBox6);
+            this.panelNested.Controls.Add(this.label6);
+            this.panelNested.Controls.Add(this.Upload_Date);
+            this.panelNested.Controls.Add(this.label5);
+            this.panelNested.Controls.Add(this.Title);
+            this.panelNested.Controls.Add(this.DeleteBtn);
+            this.panelNested.Controls.Add(this.Editbtn);
+            this.panelNested.Controls.Add(this.AddEventBtn);
             this.panelNested.Controls.Add(this.panel1);
             this.panelNested.Controls.Add(this.dataGridView1);
             this.panelNested.Controls.Add(this.label3);
-            this.panelNested.Controls.Add(this.textBox3);
+            this.panelNested.Controls.Add(this.URL);
             this.panelNested.Controls.Add(this.label2);
             this.panelNested.Controls.Add(this.textBox2);
-            this.panelNested.Controls.Add(this.textBox1);
-            this.panelNested.Controls.Add(this.label1);
             this.panelNested.Controls.Add(this.lblWelcome);
             this.panelNested.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelNested.Location = new System.Drawing.Point(0, 0);
@@ -81,38 +91,38 @@
             this.panelNested.Size = new System.Drawing.Size(1235, 745);
             this.panelNested.TabIndex = 1;
             // 
-            // button3
+            // DeleteBtn
             // 
-            this.button3.BackColor = System.Drawing.SystemColors.ButtonShadow;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(236, 618);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(89, 37);
-            this.button3.TabIndex = 38;
-            this.button3.Text = "Delete";
-            this.button3.UseVisualStyleBackColor = false;
+            this.DeleteBtn.BackColor = System.Drawing.SystemColors.ButtonShadow;
+            this.DeleteBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.DeleteBtn.Location = new System.Drawing.Point(236, 618);
+            this.DeleteBtn.Name = "DeleteBtn";
+            this.DeleteBtn.Size = new System.Drawing.Size(89, 37);
+            this.DeleteBtn.TabIndex = 38;
+            this.DeleteBtn.Text = "Delete";
+            this.DeleteBtn.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // Editbtn
             // 
-            this.button2.BackColor = System.Drawing.SystemColors.ButtonShadow;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(115, 618);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(89, 37);
-            this.button2.TabIndex = 37;
-            this.button2.Text = "Edit";
-            this.button2.UseVisualStyleBackColor = false;
+            this.Editbtn.BackColor = System.Drawing.SystemColors.ButtonShadow;
+            this.Editbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Editbtn.Location = new System.Drawing.Point(115, 618);
+            this.Editbtn.Name = "Editbtn";
+            this.Editbtn.Size = new System.Drawing.Size(89, 37);
+            this.Editbtn.TabIndex = 37;
+            this.Editbtn.Text = "Edit";
+            this.Editbtn.UseVisualStyleBackColor = false;
             // 
-            // button1
+            // AddEventBtn
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.ButtonShadow;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(5, 618);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(89, 37);
-            this.button1.TabIndex = 36;
-            this.button1.Text = "Add";
-            this.button1.UseVisualStyleBackColor = false;
+            this.AddEventBtn.BackColor = System.Drawing.SystemColors.ButtonShadow;
+            this.AddEventBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.AddEventBtn.Location = new System.Drawing.Point(5, 618);
+            this.AddEventBtn.Name = "AddEventBtn";
+            this.AddEventBtn.Size = new System.Drawing.Size(89, 37);
+            this.AddEventBtn.TabIndex = 36;
+            this.AddEventBtn.Text = "Add";
+            this.AddEventBtn.UseVisualStyleBackColor = false;
             // 
             // panel1
             // 
@@ -152,24 +162,24 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label3.Location = new System.Drawing.Point(3, 304);
+            this.label3.Location = new System.Drawing.Point(3, 462);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(91, 25);
             this.label3.TabIndex = 30;
             this.label3.Text = "URL Link";
             // 
-            // textBox3
+            // URL
             // 
-            this.textBox3.Location = new System.Drawing.Point(3, 332);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(351, 26);
-            this.textBox3.TabIndex = 29;
+            this.URL.Location = new System.Drawing.Point(3, 490);
+            this.URL.Name = "URL";
+            this.URL.Size = new System.Drawing.Size(351, 26);
+            this.URL.TabIndex = 29;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label2.Location = new System.Drawing.Point(3, 228);
+            this.label2.Location = new System.Drawing.Point(3, 240);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(109, 25);
             this.label2.TabIndex = 28;
@@ -177,28 +187,71 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(3, 256);
+            this.textBox2.Location = new System.Drawing.Point(3, 268);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(351, 26);
             this.textBox2.TabIndex = 27;
             // 
-            // textBox1
+            // label5
             // 
-            this.textBox1.BackColor = System.Drawing.Color.White;
-            this.textBox1.Location = new System.Drawing.Point(3, 181);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(351, 26);
-            this.textBox1.TabIndex = 26;
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.label5.Location = new System.Drawing.Point(3, 174);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(49, 25);
+            this.label5.TabIndex = 40;
+            this.label5.Text = "Title";
+            // 
+            // Title
+            // 
+            this.Title.Location = new System.Drawing.Point(3, 202);
+            this.Title.Name = "Title";
+            this.Title.Size = new System.Drawing.Size(351, 26);
+            this.Title.TabIndex = 39;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.label6.Location = new System.Drawing.Point(3, 307);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(120, 25);
+            this.label6.TabIndex = 42;
+            this.label6.Text = "Upload Date";
+            // 
+            // Upload_Date
+            // 
+            this.Upload_Date.Location = new System.Drawing.Point(3, 335);
+            this.Upload_Date.Name = "Upload_Date";
+            this.Upload_Date.Size = new System.Drawing.Size(351, 26);
+            this.Upload_Date.TabIndex = 41;
+            // 
+            // Content_Type
+            // 
+            this.Content_Type.AutoSize = true;
+            this.Content_Type.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.Content_Type.Location = new System.Drawing.Point(3, 381);
+            this.Content_Type.Name = "Content_Type";
+            this.Content_Type.Size = new System.Drawing.Size(120, 25);
+            this.Content_Type.TabIndex = 44;
+            this.Content_Type.Text = "Upload Date";
+            // 
+            // textBox6
+            // 
+            this.textBox6.Location = new System.Drawing.Point(3, 409);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(351, 26);
+            this.textBox6.TabIndex = 43;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label1.Location = new System.Drawing.Point(3, 149);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(203, 109);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(138, 25);
-            this.label1.TabIndex = 25;
-            this.label1.Text = "Content Name";
+            this.label1.Size = new System.Drawing.Size(177, 29);
+            this.label1.TabIndex = 45;
+            this.label1.Text = "+Add Contents ";
             // 
             // Digital
             // 
@@ -223,16 +276,21 @@
         private System.Windows.Forms.Label lblWelcome;
         private System.Windows.Forms.Panel panelNested;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox URL;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button DeleteBtn;
+        private System.Windows.Forms.Button Editbtn;
+        private System.Windows.Forms.Button AddEventBtn;
+        private System.Windows.Forms.Label Content_Type;
+        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox Upload_Date;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox Title;
+        private System.Windows.Forms.Label label1;
     }
 }

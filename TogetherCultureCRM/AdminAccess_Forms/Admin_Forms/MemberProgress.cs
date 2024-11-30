@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace TogetherCultureCRM.AdminAccess_Forms.Admin_Forms
 {
-    public partial class Form1 : Form
+    public partial class MemberProgress : Form
     {
-        public Form1()
+        public MemberProgress()
         {
             InitializeComponent();
         }

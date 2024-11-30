@@ -1,6 +1,6 @@
 ﻿namespace TogetherCultureCRM.AdminAccess_Forms.Admin_Forms
 {
-    partial class Form1
+    partial class MemberProgress
     {
         /// <summary>
         /// Required designer variable.
@@ -34,8 +34,8 @@
             this.label4 = new System.Windows.Forms.Label();
             this.lblWelcome = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -111,16 +111,6 @@
             this.panel2.Size = new System.Drawing.Size(275, 145);
             this.panel2.TabIndex = 35;
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(14, 21);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(243, 29);
-            this.label1.TabIndex = 36;
-            this.label1.Text = "Total Digital Contents";
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -130,6 +120,16 @@
             this.label2.Size = new System.Drawing.Size(45, 29);
             this.label2.TabIndex = 37;
             this.label2.Text = "No";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(14, 21);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(243, 29);
+            this.label1.TabIndex = 36;
+            this.label1.Text = "Total Digital Contents";
             // 
             // panel3
             // 
@@ -191,7 +191,7 @@
             this.label7.TabIndex = 36;
             this.label7.Text = "Total Benefits";
             // 
-            // Form1
+            // MemberProgress
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -204,7 +204,7 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.dataGridView1);
-            this.Name = "Form1";
+            this.Name = "MemberProgress";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.panel1.ResumeLayout(false);

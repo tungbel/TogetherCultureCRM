@@ -73,10 +73,12 @@
             // panelDisplay
             // 
             this.panelDisplay.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelDisplay.Location = new System.Drawing.Point(155, 147);
+            this.panelDisplay.Location = new System.Drawing.Point(174, 184);
+            this.panelDisplay.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panelDisplay.Name = "panelDisplay";
-            this.panelDisplay.Size = new System.Drawing.Size(1157, 626);
+            this.panelDisplay.Size = new System.Drawing.Size(1302, 782);
             this.panelDisplay.TabIndex = 7;
+            this.panelDisplay.Paint += new System.Windows.Forms.PaintEventHandler(this.panelDisplay_Paint);
             // 
             // panelHeader
             // 
@@ -87,9 +89,10 @@
             this.panelHeader.Controls.Add(this.btnLogout);
             this.panelHeader.Controls.Add(this.lblTitle);
             this.panelHeader.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelHeader.Location = new System.Drawing.Point(155, 48);
+            this.panelHeader.Location = new System.Drawing.Point(174, 60);
+            this.panelHeader.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panelHeader.Name = "panelHeader";
-            this.panelHeader.Size = new System.Drawing.Size(1157, 99);
+            this.panelHeader.Size = new System.Drawing.Size(1302, 124);
             this.panelHeader.TabIndex = 6;
             // 
             // button1
@@ -98,9 +101,10 @@
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.Location = new System.Drawing.Point(896, 43);
+            this.button1.Location = new System.Drawing.Point(1008, 54);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(55, 38);
+            this.button1.Size = new System.Drawing.Size(62, 48);
             this.button1.TabIndex = 4;
             this.button1.UseVisualStyleBackColor = true;
             // 
@@ -110,9 +114,10 @@
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
-            this.button2.Location = new System.Drawing.Point(608, 45);
+            this.button2.Location = new System.Drawing.Point(684, 56);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(55, 38);
+            this.button2.Size = new System.Drawing.Size(62, 48);
             this.button2.TabIndex = 5;
             this.button2.UseVisualStyleBackColor = true;
             // 
@@ -122,9 +127,10 @@
             this.btnNotifications.FlatAppearance.BorderSize = 0;
             this.btnNotifications.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNotifications.Image = ((System.Drawing.Image)(resources.GetObject("btnNotifications.Image")));
-            this.btnNotifications.Location = new System.Drawing.Point(752, 45);
+            this.btnNotifications.Location = new System.Drawing.Point(846, 56);
+            this.btnNotifications.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnNotifications.Name = "btnNotifications";
-            this.btnNotifications.Size = new System.Drawing.Size(55, 38);
+            this.btnNotifications.Size = new System.Drawing.Size(62, 48);
             this.btnNotifications.TabIndex = 6;
             this.btnNotifications.UseVisualStyleBackColor = true;
             // 
@@ -136,9 +142,10 @@
             this.btnLogout.ForeColor = System.Drawing.Color.White;
             this.btnLogout.Image = ((System.Drawing.Image)(resources.GetObject("btnLogout.Image")));
             this.btnLogout.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLogout.Location = new System.Drawing.Point(1045, 43);
+            this.btnLogout.Location = new System.Drawing.Point(1176, 54);
+            this.btnLogout.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnLogout.Name = "btnLogout";
-            this.btnLogout.Size = new System.Drawing.Size(110, 40);
+            this.btnLogout.Size = new System.Drawing.Size(124, 50);
             this.btnLogout.TabIndex = 3;
             this.btnLogout.Text = "Logout";
             this.btnLogout.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -150,9 +157,9 @@
             this.lblTitle.AutoSize = true;
             this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitle.ForeColor = System.Drawing.Color.White;
-            this.lblTitle.Location = new System.Drawing.Point(42, 43);
+            this.lblTitle.Location = new System.Drawing.Point(47, 54);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(140, 29);
+            this.lblTitle.Size = new System.Drawing.Size(162, 32);
             this.lblTitle.TabIndex = 0;
             this.lblTitle.Text = "Dashboard";
             // 
@@ -163,9 +170,10 @@
             this.btnMinimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMinimize.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMinimize.ForeColor = System.Drawing.Color.White;
-            this.btnMinimize.Location = new System.Drawing.Point(1037, 4);
+            this.btnMinimize.Location = new System.Drawing.Point(1167, 5);
+            this.btnMinimize.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnMinimize.Name = "btnMinimize";
-            this.btnMinimize.Size = new System.Drawing.Size(33, 38);
+            this.btnMinimize.Size = new System.Drawing.Size(37, 48);
             this.btnMinimize.TabIndex = 0;
             this.btnMinimize.Text = "-";
             this.btnMinimize.UseVisualStyleBackColor = true;
@@ -178,9 +186,10 @@
             this.btnMaximize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMaximize.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMaximize.ForeColor = System.Drawing.Color.White;
-            this.btnMaximize.Location = new System.Drawing.Point(1079, 4);
+            this.btnMaximize.Location = new System.Drawing.Point(1214, 5);
+            this.btnMaximize.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnMaximize.Name = "btnMaximize";
-            this.btnMaximize.Size = new System.Drawing.Size(33, 38);
+            this.btnMaximize.Size = new System.Drawing.Size(37, 48);
             this.btnMaximize.TabIndex = 0;
             this.btnMaximize.Text = "o";
             this.btnMaximize.UseVisualStyleBackColor = true;
@@ -193,9 +202,10 @@
             this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.btnExit.Location = new System.Drawing.Point(1121, 4);
+            this.btnExit.Location = new System.Drawing.Point(1261, 5);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(33, 38);
+            this.btnExit.Size = new System.Drawing.Size(37, 48);
             this.btnExit.TabIndex = 0;
             this.btnExit.Text = "x";
             this.btnExit.UseVisualStyleBackColor = true;
@@ -209,9 +219,10 @@
             this.panelBorder.Controls.Add(this.btnMaximize);
             this.panelBorder.Controls.Add(this.btnExit);
             this.panelBorder.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelBorder.Location = new System.Drawing.Point(155, 0);
+            this.panelBorder.Location = new System.Drawing.Point(174, 0);
+            this.panelBorder.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panelBorder.Name = "panelBorder";
-            this.panelBorder.Size = new System.Drawing.Size(1157, 48);
+            this.panelBorder.Size = new System.Drawing.Size(1302, 60);
             this.panelBorder.TabIndex = 5;
             this.panelBorder.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelBorder_MouseDown);
             // 
@@ -221,18 +232,20 @@
             this.panelSearch.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(46)))), ((int)(((byte)(62)))));
             this.panelSearch.Controls.Add(this.pictureBox3);
             this.panelSearch.Controls.Add(this.textBoxSearch);
-            this.panelSearch.Location = new System.Drawing.Point(269, 9);
-            this.panelSearch.MaximumSize = new System.Drawing.Size(527, 30);
+            this.panelSearch.Location = new System.Drawing.Point(303, 11);
+            this.panelSearch.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.panelSearch.MaximumSize = new System.Drawing.Size(593, 38);
             this.panelSearch.Name = "panelSearch";
-            this.panelSearch.Size = new System.Drawing.Size(527, 30);
+            this.panelSearch.Size = new System.Drawing.Size(593, 38);
             this.panelSearch.TabIndex = 3;
             // 
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
             this.pictureBox3.Location = new System.Drawing.Point(2, 1);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(32, 23);
+            this.pictureBox3.Size = new System.Drawing.Size(36, 29);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox3.TabIndex = 2;
             this.pictureBox3.TabStop = false;
@@ -244,11 +257,12 @@
             this.textBoxSearch.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBoxSearch.Font = new System.Drawing.Font("Microsoft JhengHei", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxSearch.ForeColor = System.Drawing.Color.White;
-            this.textBoxSearch.Location = new System.Drawing.Point(33, 4);
-            this.textBoxSearch.MaximumSize = new System.Drawing.Size(489, 25);
-            this.textBoxSearch.MinimumSize = new System.Drawing.Size(340, 25);
+            this.textBoxSearch.Location = new System.Drawing.Point(37, 5);
+            this.textBoxSearch.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBoxSearch.MaximumSize = new System.Drawing.Size(550, 25);
+            this.textBoxSearch.MinimumSize = new System.Drawing.Size(382, 25);
             this.textBoxSearch.Name = "textBoxSearch";
-            this.textBoxSearch.Size = new System.Drawing.Size(489, 18);
+            this.textBoxSearch.Size = new System.Drawing.Size(550, 21);
             this.textBoxSearch.TabIndex = 1;
             this.textBoxSearch.Text = " Search";
             // 
@@ -257,8 +271,9 @@
             this.panelLogo.Controls.Add(this.pictureBox1);
             this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelLogo.Location = new System.Drawing.Point(0, 0);
+            this.panelLogo.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panelLogo.Name = "panelLogo";
-            this.panelLogo.Size = new System.Drawing.Size(155, 48);
+            this.panelLogo.Size = new System.Drawing.Size(174, 60);
             this.panelLogo.TabIndex = 0;
             // 
             // pictureBox1
@@ -266,8 +281,9 @@
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(155, 48);
+            this.pictureBox1.Size = new System.Drawing.Size(174, 60);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -277,9 +293,9 @@
             this.labelStatus.AutoSize = true;
             this.labelStatus.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelStatus.ForeColor = System.Drawing.Color.White;
-            this.labelStatus.Location = new System.Drawing.Point(57, 72);
+            this.labelStatus.Location = new System.Drawing.Point(64, 90);
             this.labelStatus.Name = "labelStatus";
-            this.labelStatus.Size = new System.Drawing.Size(36, 13);
+            this.labelStatus.Size = new System.Drawing.Size(42, 15);
             this.labelStatus.TabIndex = 1;
             this.labelStatus.Text = "Admin";
             // 
@@ -287,18 +303,19 @@
             // 
             this.lblUserName.AutoSize = true;
             this.lblUserName.ForeColor = System.Drawing.Color.White;
-            this.lblUserName.Location = new System.Drawing.Point(39, 50);
+            this.lblUserName.Location = new System.Drawing.Point(44, 62);
             this.lblUserName.Name = "lblUserName";
-            this.lblUserName.Size = new System.Drawing.Size(76, 16);
+            this.lblUserName.Size = new System.Drawing.Size(89, 20);
             this.lblUserName.TabIndex = 1;
             this.lblUserName.Text = "User Name";
             // 
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(60, 11);
+            this.pictureBox2.Location = new System.Drawing.Point(68, 14);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(40, 40);
+            this.pictureBox2.Size = new System.Drawing.Size(45, 50);
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
             // 
@@ -311,10 +328,11 @@
             this.btnReports.ForeColor = System.Drawing.Color.White;
             this.btnReports.Image = ((System.Drawing.Image)(resources.GetObject("btnReports.Image")));
             this.btnReports.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnReports.Location = new System.Drawing.Point(0, 475);
+            this.btnReports.Location = new System.Drawing.Point(0, 592);
+            this.btnReports.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnReports.Name = "btnReports";
-            this.btnReports.Padding = new System.Windows.Forms.Padding(0, 16, 0, 0);
-            this.btnReports.Size = new System.Drawing.Size(155, 82);
+            this.btnReports.Padding = new System.Windows.Forms.Padding(0, 20, 0, 0);
+            this.btnReports.Size = new System.Drawing.Size(174, 102);
             this.btnReports.TabIndex = 6;
             this.btnReports.Text = "Reports";
             this.btnReports.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -330,10 +348,11 @@
             this.btnDigitalContents.ForeColor = System.Drawing.Color.White;
             this.btnDigitalContents.Image = ((System.Drawing.Image)(resources.GetObject("btnDigitalContents.Image")));
             this.btnDigitalContents.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnDigitalContents.Location = new System.Drawing.Point(0, 393);
+            this.btnDigitalContents.Location = new System.Drawing.Point(0, 490);
+            this.btnDigitalContents.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnDigitalContents.Name = "btnDigitalContents";
-            this.btnDigitalContents.Padding = new System.Windows.Forms.Padding(0, 16, 0, 0);
-            this.btnDigitalContents.Size = new System.Drawing.Size(155, 82);
+            this.btnDigitalContents.Padding = new System.Windows.Forms.Padding(0, 20, 0, 0);
+            this.btnDigitalContents.Size = new System.Drawing.Size(174, 102);
             this.btnDigitalContents.TabIndex = 5;
             this.btnDigitalContents.Text = "Digital Contents";
             this.btnDigitalContents.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -349,10 +368,11 @@
             this.btnEvents.ForeColor = System.Drawing.Color.White;
             this.btnEvents.Image = ((System.Drawing.Image)(resources.GetObject("btnEvents.Image")));
             this.btnEvents.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnEvents.Location = new System.Drawing.Point(0, 311);
+            this.btnEvents.Location = new System.Drawing.Point(0, 388);
+            this.btnEvents.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnEvents.Name = "btnEvents";
-            this.btnEvents.Padding = new System.Windows.Forms.Padding(0, 16, 0, 0);
-            this.btnEvents.Size = new System.Drawing.Size(155, 82);
+            this.btnEvents.Padding = new System.Windows.Forms.Padding(0, 20, 0, 0);
+            this.btnEvents.Size = new System.Drawing.Size(174, 102);
             this.btnEvents.TabIndex = 4;
             this.btnEvents.Text = "Events";
             this.btnEvents.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -368,10 +388,11 @@
             this.btnMembers.ForeColor = System.Drawing.Color.White;
             this.btnMembers.Image = ((System.Drawing.Image)(resources.GetObject("btnMembers.Image")));
             this.btnMembers.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnMembers.Location = new System.Drawing.Point(0, 229);
+            this.btnMembers.Location = new System.Drawing.Point(0, 286);
+            this.btnMembers.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnMembers.Name = "btnMembers";
-            this.btnMembers.Padding = new System.Windows.Forms.Padding(0, 16, 0, 0);
-            this.btnMembers.Size = new System.Drawing.Size(155, 82);
+            this.btnMembers.Padding = new System.Windows.Forms.Padding(0, 20, 0, 0);
+            this.btnMembers.Size = new System.Drawing.Size(174, 102);
             this.btnMembers.TabIndex = 3;
             this.btnMembers.Text = "Members";
             this.btnMembers.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -387,10 +408,11 @@
             this.btnDashboard.ForeColor = System.Drawing.Color.White;
             this.btnDashboard.Image = ((System.Drawing.Image)(resources.GetObject("btnDashboard.Image")));
             this.btnDashboard.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnDashboard.Location = new System.Drawing.Point(0, 147);
+            this.btnDashboard.Location = new System.Drawing.Point(0, 184);
+            this.btnDashboard.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnDashboard.Name = "btnDashboard";
-            this.btnDashboard.Padding = new System.Windows.Forms.Padding(0, 16, 0, 0);
-            this.btnDashboard.Size = new System.Drawing.Size(155, 82);
+            this.btnDashboard.Padding = new System.Windows.Forms.Padding(0, 20, 0, 0);
+            this.btnDashboard.Size = new System.Drawing.Size(174, 102);
             this.btnDashboard.TabIndex = 2;
             this.btnDashboard.Text = "Dashboard";
             this.btnDashboard.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -413,8 +435,9 @@
             this.panelMenu.Controls.Add(this.panelLogo);
             this.panelMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelMenu.Location = new System.Drawing.Point(0, 0);
+            this.panelMenu.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panelMenu.Name = "panelMenu";
-            this.panelMenu.Size = new System.Drawing.Size(155, 773);
+            this.panelMenu.Size = new System.Drawing.Size(174, 966);
             this.panelMenu.TabIndex = 4;
             // 
             // linkLblContact
@@ -423,9 +446,9 @@
             this.linkLblContact.AutoSize = true;
             this.linkLblContact.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLblContact.LinkColor = System.Drawing.Color.White;
-            this.linkLblContact.Location = new System.Drawing.Point(52, 743);
+            this.linkLblContact.Location = new System.Drawing.Point(58, 929);
             this.linkLblContact.Name = "linkLblContact";
-            this.linkLblContact.Size = new System.Drawing.Size(48, 15);
+            this.linkLblContact.Size = new System.Drawing.Size(56, 17);
             this.linkLblContact.TabIndex = 9;
             this.linkLblContact.TabStop = true;
             this.linkLblContact.Text = "Contact";
@@ -437,9 +460,9 @@
             this.linkLblPrivacyPolicy.AutoSize = true;
             this.linkLblPrivacyPolicy.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLblPrivacyPolicy.LinkColor = System.Drawing.Color.White;
-            this.linkLblPrivacyPolicy.Location = new System.Drawing.Point(37, 716);
+            this.linkLblPrivacyPolicy.Location = new System.Drawing.Point(42, 895);
             this.linkLblPrivacyPolicy.Name = "linkLblPrivacyPolicy";
-            this.linkLblPrivacyPolicy.Size = new System.Drawing.Size(80, 15);
+            this.linkLblPrivacyPolicy.Size = new System.Drawing.Size(95, 17);
             this.linkLblPrivacyPolicy.TabIndex = 10;
             this.linkLblPrivacyPolicy.TabStop = true;
             this.linkLblPrivacyPolicy.Text = "Privacy Policy";
@@ -451,9 +474,9 @@
             this.linkLblStory.AutoSize = true;
             this.linkLblStory.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLblStory.LinkColor = System.Drawing.Color.White;
-            this.linkLblStory.Location = new System.Drawing.Point(47, 689);
+            this.linkLblStory.Location = new System.Drawing.Point(53, 861);
             this.linkLblStory.Name = "linkLblStory";
-            this.linkLblStory.Size = new System.Drawing.Size(57, 15);
+            this.linkLblStory.Size = new System.Drawing.Size(69, 17);
             this.linkLblStory.TabIndex = 11;
             this.linkLblStory.TabStop = true;
             this.linkLblStory.Text = "Our Story";
@@ -468,10 +491,11 @@
             this.btnChats.ForeColor = System.Drawing.Color.White;
             this.btnChats.Image = ((System.Drawing.Image)(resources.GetObject("btnChats.Image")));
             this.btnChats.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnChats.Location = new System.Drawing.Point(0, 557);
+            this.btnChats.Location = new System.Drawing.Point(0, 694);
+            this.btnChats.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnChats.Name = "btnChats";
-            this.btnChats.Padding = new System.Windows.Forms.Padding(0, 16, 0, 0);
-            this.btnChats.Size = new System.Drawing.Size(155, 82);
+            this.btnChats.Padding = new System.Windows.Forms.Padding(0, 20, 0, 0);
+            this.btnChats.Size = new System.Drawing.Size(174, 102);
             this.btnChats.TabIndex = 8;
             this.btnChats.Text = "Chats";
             this.btnChats.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -484,20 +508,22 @@
             this.panelAccount.Controls.Add(this.lblUserName);
             this.panelAccount.Controls.Add(this.pictureBox2);
             this.panelAccount.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelAccount.Location = new System.Drawing.Point(0, 48);
+            this.panelAccount.Location = new System.Drawing.Point(0, 60);
+            this.panelAccount.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panelAccount.Name = "panelAccount";
-            this.panelAccount.Size = new System.Drawing.Size(155, 99);
+            this.panelAccount.Size = new System.Drawing.Size(174, 124);
             this.panelAccount.TabIndex = 1;
             // 
             // AdminMainMenu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1312, 773);
+            this.ClientSize = new System.Drawing.Size(1476, 966);
             this.Controls.Add(this.panelDisplay);
             this.Controls.Add(this.panelHeader);
             this.Controls.Add(this.panelBorder);
             this.Controls.Add(this.panelMenu);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "AdminMainMenu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AdminMainMenu";

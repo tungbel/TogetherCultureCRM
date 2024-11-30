@@ -49,18 +49,18 @@ namespace TogetherCultureCRM.AdminAccess_Forms
         }
 
 
-        // Button click event to open the Dashboard form
+        // Button click Dashboard to open the Dashboard form
         private void btnDashboard_Click(object sender, EventArgs e)
         {
             _navManager.ActivateButton(sender, panelMenu, Color.FromArgb(222, 24, 96));
             _navManager.OpenChildForm(this, new Admin_Forms.Dashboard(), panelDisplay); // Load the FormDashboard on start
         }
 
-        // Button click event to open the Menmbers form
+        // Button click Member to open the Menmbers form
         private void btnMembers_Click(object sender, EventArgs e)
         {
             _navManager.ActivateButton(sender, panelMenu, Color.FromArgb(222, 24, 96));
-            _navManager.OpenChildForm(this, new Admin_Forms.Digital(), panelDisplay);
+            _navManager.OpenChildForm(this, new Admin_Forms.Members(), panelDisplay);
         }
 
         // Button click event to open the Events form
@@ -70,21 +70,21 @@ namespace TogetherCultureCRM.AdminAccess_Forms
             _navManager.OpenChildForm(this, new Admin_Forms.Events(), panelDisplay);
         }
 
-        // Button click event to open the Digital Content Modules form
+        // Button click Digital Content Modules to open the Digital Content Modules form
         private void btnDigitalContents_Click(object sender, EventArgs e)
         {
             _navManager.ActivateButton(sender, panelMenu, Color.FromArgb(222, 24, 96));
             _navManager.OpenChildForm(this, new Admin_Forms.Digital(), panelDisplay);
         }
 
-        // Button click event to open the reports form
+        // Button click Report to open the reports form
         private void btnReports_Click(object sender, EventArgs e)
         {
             _navManager.ActivateButton(sender, panelMenu, Color.FromArgb(222, 24, 96));
             _navManager.OpenChildForm(this, new Admin_Forms.Reports(), panelDisplay);
         }
 
-        // Button click event to open the chats form
+        // Button click event to Chat the chats form
         private void btnChats_Click(object sender, EventArgs e)
         {
             _navManager.ActivateButton(sender, panelMenu, Color.FromArgb(222, 24, 96));
@@ -152,6 +152,9 @@ namespace TogetherCultureCRM.AdminAccess_Forms
             System.Diagnostics.Process.Start("https://www.togetherculture.com/contact");
         }
 
+        private void panelDisplay_Paint(object sender, PaintEventArgs e)
+        {
 
+        }
     }
 }

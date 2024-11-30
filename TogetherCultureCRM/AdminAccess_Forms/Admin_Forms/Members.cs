@@ -31,5 +31,12 @@ namespace TogetherCultureCRM.AdminAccess_Forms.Admin_Forms
         {
 
         }
+
+        private void View_Click(object sender, EventArgs e)
+        {
+            MemberProgress memberProgress = new MemberProgress();
+            memberProgress.Show();
+            this.Hide();
+        }
     }
 }
