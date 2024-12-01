@@ -105,8 +105,8 @@
     <Compile Include="AdminAccess_Forms\Admin_Forms\Reports.Designer.cs">
       <DependentUpon>Reports.cs</DependentUpon>
     </Compile>
-    <Compile Include="DBConnections\Constants.cs" />
-    <Compile Include="DBConnections\DBConnections.cs" />
+    <Compile Include="DBConnect\Constants.cs" />
+    <Compile Include="DBConnect\DBConnections.cs" />
     <Compile Include="GuestAccess_Forms\GeustMainMenu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -302,6 +302,7 @@
     <EmbeddedResource Include="SuperAdminAccess_Forms\SuperAdmin_Forms\Reports.resx">
       <DependentUpon>Reports.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -324,7 +325,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <DependentUpon>dbTogetherCultuture.mdf</DependentUpon>
     </Content>
-    <Content Include="DBConnections\TextFile1.txt" />
+    <Content Include="DBConnect\TextFile1.txt" />
     <Content Include="Readme.txt" />
   </ItemGroup>
   <ItemGroup>

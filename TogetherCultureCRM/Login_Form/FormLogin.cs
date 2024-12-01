@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using TogetherCultureCRM.DBConnections;
+using TogetherCultureCRM.DBConnect;
 
 namespace TogetherCultureCRM.Login_Form
 {
@@ -25,7 +25,7 @@ namespace TogetherCultureCRM.Login_Form
             string password = txtUsername.Text.Trim();
 
             // Validate credentials
-            string role = TogetherCultureCRM.DBConnections.DBConnections.GetInstance().ValidateLogin(username, password);
+            string role = TogetherCultureCRM.DBConnect.DBConnections.GetInstance().ValidateLogin(username, password);
 
             if (role == "Member")
             {

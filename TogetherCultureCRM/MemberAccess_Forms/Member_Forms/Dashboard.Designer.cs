@@ -28,76 +28,66 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.lblWelcome = new System.Windows.Forms.Label();
-            this.panel7 = new System.Windows.Forms.Panel();
             this.panelNested = new System.Windows.Forms.Panel();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
-            this.lblBenefitsUsed = new System.Windows.Forms.Label();
+            this.dgvBenefitsAvailable = new System.Windows.Forms.DataGridView();
+            this.dgvBenefitsUsed = new System.Windows.Forms.DataGridView();
+            this.lstDigitalContent = new System.Windows.Forms.ListBox();
+            this.dgvUpcomingEvents = new System.Windows.Forms.DataGridView();
+            this.lblDigitalContentsA = new System.Windows.Forms.Label();
+            this.lblAllBenefitsAvailable = new System.Windows.Forms.Label();
+            this.lblAllBenefitsUsed = new System.Windows.Forms.Label();
+            this.lblUpComingEvent = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.lblBenefitAvailable = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.label4 = new System.Windows.Forms.Label();
-            this.panel7.SuspendLayout();
+            this.lblEventJoinedCount = new System.Windows.Forms.Label();
+            this.lblTotalEvent = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panelBenefitsAvailable = new System.Windows.Forms.Panel();
+            this.lblAvailableCount = new System.Windows.Forms.Label();
+            this.labelBenefitsAvailable = new System.Windows.Forms.Label();
+            this.panelBenefitsUsed = new System.Windows.Forms.Panel();
+            this.lblUsedCount = new System.Windows.Forms.Label();
+            this.labelBenefitsUsed = new System.Windows.Forms.Label();
             this.panelNested.SuspendLayout();
-            this.panel6.SuspendLayout();
-            this.panel5.SuspendLayout();
-            this.panel8.SuspendLayout();
-            this.panel4.SuspendLayout();
-            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvBenefitsAvailable)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvBenefitsUsed)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvUpcomingEvents)).BeginInit();
             this.panel1.SuspendLayout();
-            this.panel3.SuspendLayout();
+            this.panelBenefitsAvailable.SuspendLayout();
+            this.panelBenefitsUsed.SuspendLayout();
             this.SuspendLayout();
             // 
             // lblWelcome
             // 
             this.lblWelcome.AutoSize = true;
             this.lblWelcome.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblWelcome.Location = new System.Drawing.Point(23, 19);
+            this.lblWelcome.Location = new System.Drawing.Point(17, 19);
             this.lblWelcome.Name = "lblWelcome";
             this.lblWelcome.Size = new System.Drawing.Size(152, 25);
             this.lblWelcome.TabIndex = 2;
             this.lblWelcome.Text = "Welcome, User!";
             this.lblWelcome.Click += new System.EventHandler(this.lblWelcome_Click);
             // 
-            // panel7
-            // 
-            this.panel7.BackColor = System.Drawing.Color.White;
-            this.panel7.Controls.Add(this.label11);
-            this.panel7.Controls.Add(this.label12);
-            this.panel7.Location = new System.Drawing.Point(714, 68);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(299, 1020);
-            this.panel7.TabIndex = 6;
-            // 
             // panelNested
             // 
             this.panelNested.AutoScroll = true;
             this.panelNested.AutoSize = true;
-            this.panelNested.Controls.Add(this.panel6);
-            this.panelNested.Controls.Add(this.panel5);
-            this.panelNested.Controls.Add(this.panel3);
-            this.panelNested.Controls.Add(this.panel8);
-            this.panelNested.Controls.Add(this.panel7);
-            this.panelNested.Controls.Add(this.panel4);
-            this.panelNested.Controls.Add(this.panel2);
+            this.panelNested.Controls.Add(this.dgvBenefitsAvailable);
+            this.panelNested.Controls.Add(this.dgvBenefitsUsed);
+            this.panelNested.Controls.Add(this.lstDigitalContent);
+            this.panelNested.Controls.Add(this.dgvUpcomingEvents);
+            this.panelNested.Controls.Add(this.lblDigitalContentsA);
+            this.panelNested.Controls.Add(this.lblAllBenefitsAvailable);
+            this.panelNested.Controls.Add(this.lblAllBenefitsUsed);
+            this.panelNested.Controls.Add(this.lblUpComingEvent);
             this.panelNested.Controls.Add(this.panel1);
+            this.panelNested.Controls.Add(this.panel2);
+            this.panelNested.Controls.Add(this.panelBenefitsAvailable);
+            this.panelNested.Controls.Add(this.panelBenefitsUsed);
             this.panelNested.Controls.Add(this.lblWelcome);
             this.panelNested.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelNested.Location = new System.Drawing.Point(0, 0);
@@ -105,243 +95,245 @@
             this.panelNested.Size = new System.Drawing.Size(1098, 596);
             this.panelNested.TabIndex = 0;
             // 
-            // panel6
+            // dgvBenefitsAvailable
             // 
-            this.panel6.BackColor = System.Drawing.Color.White;
-            this.panel6.Controls.Add(this.label9);
-            this.panel6.Controls.Add(this.label10);
-            this.panel6.Location = new System.Drawing.Point(25, 286);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(673, 266);
-            this.panel6.TabIndex = 3;
+            this.dgvBenefitsAvailable.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvBenefitsAvailable.BackgroundColor = System.Drawing.Color.White;
+            this.dgvBenefitsAvailable.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dgvBenefitsAvailable.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvBenefitsAvailable.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            this.dgvBenefitsAvailable.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvBenefitsAvailable.Location = new System.Drawing.Point(957, 413);
+            this.dgvBenefitsAvailable.Name = "dgvBenefitsAvailable";
+            this.dgvBenefitsAvailable.RowHeadersVisible = false;
+            this.dgvBenefitsAvailable.RowHeadersWidth = 51;
+            this.dgvBenefitsAvailable.RowTemplate.Height = 24;
+            this.dgvBenefitsAvailable.Size = new System.Drawing.Size(795, 292);
+            this.dgvBenefitsAvailable.TabIndex = 8;
             // 
-            // label10
+            // dgvBenefitsUsed
             // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(349, 150);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(91, 16);
-            this.label10.TabIndex = 0;
-            this.label10.Text = "Benefits Used";
+            this.dgvBenefitsUsed.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvBenefitsUsed.BackgroundColor = System.Drawing.Color.White;
+            this.dgvBenefitsUsed.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dgvBenefitsUsed.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvBenefitsUsed.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            this.dgvBenefitsUsed.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvBenefitsUsed.GridColor = System.Drawing.Color.White;
+            this.dgvBenefitsUsed.Location = new System.Drawing.Point(122, 413);
+            this.dgvBenefitsUsed.Name = "dgvBenefitsUsed";
+            this.dgvBenefitsUsed.RowHeadersVisible = false;
+            this.dgvBenefitsUsed.RowHeadersWidth = 51;
+            this.dgvBenefitsUsed.RowTemplate.Height = 24;
+            this.dgvBenefitsUsed.Size = new System.Drawing.Size(795, 292);
+            this.dgvBenefitsUsed.TabIndex = 8;
             // 
-            // label9
+            // lstDigitalContent
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(24)))), ((int)(((byte)(96)))));
-            this.label9.Location = new System.Drawing.Point(372, 106);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(41, 29);
-            this.label9.TabIndex = 0;
-            this.label9.Text = "15";
+            this.lstDigitalContent.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.lstDigitalContent.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lstDigitalContent.FormattingEnabled = true;
+            this.lstDigitalContent.ItemHeight = 20;
+            this.lstDigitalContent.Location = new System.Drawing.Point(122, 1255);
+            this.lstDigitalContent.Margin = new System.Windows.Forms.Padding(8);
+            this.lstDigitalContent.MultiColumn = true;
+            this.lstDigitalContent.Name = "lstDigitalContent";
+            this.lstDigitalContent.Size = new System.Drawing.Size(1630, 320);
+            this.lstDigitalContent.TabIndex = 6;
             // 
-            // panel5
+            // dgvUpcomingEvents
             // 
-            this.panel5.BackColor = System.Drawing.Color.White;
-            this.panel5.Controls.Add(this.label7);
-            this.panel5.Controls.Add(this.label8);
-            this.panel5.Location = new System.Drawing.Point(25, 166);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(356, 110);
-            this.panel5.TabIndex = 4;
+            this.dgvUpcomingEvents.AllowUserToAddRows = false;
+            this.dgvUpcomingEvents.AllowUserToDeleteRows = false;
+            this.dgvUpcomingEvents.AllowUserToOrderColumns = true;
+            this.dgvUpcomingEvents.AllowUserToResizeColumns = false;
+            this.dgvUpcomingEvents.AllowUserToResizeRows = false;
+            this.dgvUpcomingEvents.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvUpcomingEvents.BackgroundColor = System.Drawing.Color.White;
+            this.dgvUpcomingEvents.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dgvUpcomingEvents.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
+            this.dgvUpcomingEvents.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvUpcomingEvents.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            this.dgvUpcomingEvents.ColumnHeadersHeight = 35;
+            this.dgvUpcomingEvents.ColumnHeadersVisible = false;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvUpcomingEvents.DefaultCellStyle = dataGridViewCellStyle4;
+            this.dgvUpcomingEvents.Location = new System.Drawing.Point(122, 773);
+            this.dgvUpcomingEvents.Name = "dgvUpcomingEvents";
+            this.dgvUpcomingEvents.RowHeadersVisible = false;
+            this.dgvUpcomingEvents.RowHeadersWidth = 100;
+            this.dgvUpcomingEvents.RowTemplate.Height = 24;
+            this.dgvUpcomingEvents.Size = new System.Drawing.Size(1630, 389);
+            this.dgvUpcomingEvents.TabIndex = 5;
             // 
-            // label8
+            // lblDigitalContentsA
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(40, 85);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(91, 16);
-            this.label8.TabIndex = 0;
-            this.label8.Text = "Benefits Used";
+            this.lblDigitalContentsA.AutoSize = true;
+            this.lblDigitalContentsA.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDigitalContentsA.Location = new System.Drawing.Point(117, 1218);
+            this.lblDigitalContentsA.Name = "lblDigitalContentsA";
+            this.lblDigitalContentsA.Size = new System.Drawing.Size(286, 25);
+            this.lblDigitalContentsA.TabIndex = 0;
+            this.lblDigitalContentsA.Text = "Digital Contents Anouncements";
             // 
-            // label7
+            // lblAllBenefitsAvailable
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(24)))), ((int)(((byte)(96)))));
-            this.label7.Location = new System.Drawing.Point(63, 41);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(41, 29);
-            this.label7.TabIndex = 0;
-            this.label7.Text = "15";
+            this.lblAllBenefitsAvailable.AutoSize = true;
+            this.lblAllBenefitsAvailable.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAllBenefitsAvailable.Location = new System.Drawing.Point(952, 376);
+            this.lblAllBenefitsAvailable.Name = "lblAllBenefitsAvailable";
+            this.lblAllBenefitsAvailable.Size = new System.Drawing.Size(194, 25);
+            this.lblAllBenefitsAvailable.TabIndex = 0;
+            this.lblAllBenefitsAvailable.Text = "All Benefits Available";
             // 
-            // panel8
+            // lblAllBenefitsUsed
             // 
-            this.panel8.BackColor = System.Drawing.Color.White;
-            this.panel8.Controls.Add(this.label13);
-            this.panel8.Controls.Add(this.label14);
-            this.panel8.Location = new System.Drawing.Point(1028, 65);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(351, 547);
-            this.panel8.TabIndex = 5;
+            this.lblAllBenefitsUsed.AutoSize = true;
+            this.lblAllBenefitsUsed.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAllBenefitsUsed.Location = new System.Drawing.Point(117, 376);
+            this.lblAllBenefitsUsed.Name = "lblAllBenefitsUsed";
+            this.lblAllBenefitsUsed.Size = new System.Drawing.Size(160, 25);
+            this.lblAllBenefitsUsed.TabIndex = 0;
+            this.lblAllBenefitsUsed.Text = "All Benefits Used";
             // 
-            // label14
+            // lblUpComingEvent
             // 
-            this.label14.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(3, 79);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(91, 16);
-            this.label14.TabIndex = 0;
-            this.label14.Text = "Benefits Used";
-            // 
-            // label13
-            // 
-            this.label13.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(24)))), ((int)(((byte)(96)))));
-            this.label13.Location = new System.Drawing.Point(26, 35);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(41, 29);
-            this.label13.TabIndex = 0;
-            this.label13.Text = "15";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(104, 280);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(91, 16);
-            this.label12.TabIndex = 0;
-            this.label12.Text = "Benefits Used";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(24)))), ((int)(((byte)(96)))));
-            this.label11.Location = new System.Drawing.Point(127, 236);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(41, 29);
-            this.label11.TabIndex = 0;
-            this.label11.Text = "15";
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.White;
-            this.panel4.Controls.Add(this.label5);
-            this.panel4.Controls.Add(this.label6);
-            this.panel4.Location = new System.Drawing.Point(399, 68);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(299, 209);
-            this.panel4.TabIndex = 7;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(97, 134);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(91, 16);
-            this.label6.TabIndex = 0;
-            this.label6.Text = "Benefits Used";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(24)))), ((int)(((byte)(96)))));
-            this.label5.Location = new System.Drawing.Point(120, 90);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(41, 29);
-            this.label5.TabIndex = 0;
-            this.label5.Text = "15";
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.White;
-            this.panel2.Controls.Add(this.lblBenefitsUsed);
-            this.panel2.Controls.Add(this.label3);
-            this.panel2.Location = new System.Drawing.Point(211, 68);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(170, 84);
-            this.panel2.TabIndex = 8;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(49, 85);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(91, 16);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "Benefits Used";
-            // 
-            // lblBenefitsUsed
-            // 
-            this.lblBenefitsUsed.AutoSize = true;
-            this.lblBenefitsUsed.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblBenefitsUsed.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(24)))), ((int)(((byte)(96)))));
-            this.lblBenefitsUsed.Location = new System.Drawing.Point(72, 41);
-            this.lblBenefitsUsed.Name = "lblBenefitsUsed";
-            this.lblBenefitsUsed.Size = new System.Drawing.Size(41, 29);
-            this.lblBenefitsUsed.TabIndex = 0;
-            this.lblBenefitsUsed.Text = "15";
+            this.lblUpComingEvent.AutoSize = true;
+            this.lblUpComingEvent.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUpComingEvent.Location = new System.Drawing.Point(117, 735);
+            this.lblUpComingEvent.Name = "lblUpComingEvent";
+            this.lblUpComingEvent.Size = new System.Drawing.Size(165, 25);
+            this.lblUpComingEvent.TabIndex = 0;
+            this.lblUpComingEvent.Text = "Upcoming Events";
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
-            this.panel1.Controls.Add(this.lblBenefitAvailable);
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(25, 68);
+            this.panel1.Controls.Add(this.lblEventJoinedCount);
+            this.panel1.Controls.Add(this.lblTotalEvent);
+            this.panel1.Location = new System.Drawing.Point(122, 91);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(161, 84);
-            this.panel1.TabIndex = 9;
+            this.panel1.Size = new System.Drawing.Size(512, 258);
+            this.panel1.TabIndex = 4;
             // 
-            // label1
+            // lblEventJoinedCount
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(31, 85);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(115, 16);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Benefits Available";
+            this.lblEventJoinedCount.AutoSize = true;
+            this.lblEventJoinedCount.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEventJoinedCount.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(24)))), ((int)(((byte)(96)))));
+            this.lblEventJoinedCount.Location = new System.Drawing.Point(200, 61);
+            this.lblEventJoinedCount.Name = "lblEventJoinedCount";
+            this.lblEventJoinedCount.Size = new System.Drawing.Size(70, 76);
+            this.lblEventJoinedCount.TabIndex = 0;
+            this.lblEventJoinedCount.Text = "0";
             // 
-            // lblBenefitAvailable
+            // lblTotalEvent
             // 
-            this.lblBenefitAvailable.AutoSize = true;
-            this.lblBenefitAvailable.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblBenefitAvailable.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(24)))), ((int)(((byte)(96)))));
-            this.lblBenefitAvailable.Location = new System.Drawing.Point(69, 41);
-            this.lblBenefitAvailable.Name = "lblBenefitAvailable";
-            this.lblBenefitAvailable.Size = new System.Drawing.Size(41, 29);
-            this.lblBenefitAvailable.TabIndex = 0;
-            this.lblBenefitAvailable.Text = "24";
+            this.lblTotalEvent.AutoSize = true;
+            this.lblTotalEvent.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotalEvent.Location = new System.Drawing.Point(152, 194);
+            this.lblTotalEvent.Name = "lblTotalEvent";
+            this.lblTotalEvent.Size = new System.Drawing.Size(185, 25);
+            this.lblTotalEvent.TabIndex = 0;
+            this.lblTotalEvent.Text = "Total Events Joined";
             // 
-            // label2
+            // panel2
             // 
-            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(24)))), ((int)(((byte)(96)))));
-            this.label2.Location = new System.Drawing.Point(26, 35);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(41, 29);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "15";
+            this.panel2.BackColor = System.Drawing.Color.White;
+            this.panel2.Location = new System.Drawing.Point(1837, 91);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(35, 409);
+            this.panel2.TabIndex = 4;
             // 
-            // panel3
+            // panelBenefitsAvailable
             // 
-            this.panel3.BackColor = System.Drawing.Color.White;
-            this.panel3.Controls.Add(this.label2);
-            this.panel3.Controls.Add(this.label4);
-            this.panel3.Location = new System.Drawing.Point(1402, 65);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(420, 547);
-            this.panel3.TabIndex = 5;
+            this.panelBenefitsAvailable.BackColor = System.Drawing.Color.White;
+            this.panelBenefitsAvailable.Controls.Add(this.lblAvailableCount);
+            this.panelBenefitsAvailable.Controls.Add(this.labelBenefitsAvailable);
+            this.panelBenefitsAvailable.Location = new System.Drawing.Point(1240, 91);
+            this.panelBenefitsAvailable.Name = "panelBenefitsAvailable";
+            this.panelBenefitsAvailable.Size = new System.Drawing.Size(512, 258);
+            this.panelBenefitsAvailable.TabIndex = 4;
             // 
-            // label4
+            // lblAvailableCount
             // 
-            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(3, 79);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(91, 16);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "Benefits Used";
+            this.lblAvailableCount.AutoSize = true;
+            this.lblAvailableCount.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAvailableCount.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(24)))), ((int)(((byte)(96)))));
+            this.lblAvailableCount.Location = new System.Drawing.Point(223, 61);
+            this.lblAvailableCount.Name = "lblAvailableCount";
+            this.lblAvailableCount.Size = new System.Drawing.Size(70, 76);
+            this.lblAvailableCount.TabIndex = 0;
+            this.lblAvailableCount.Text = "0";
+            // 
+            // labelBenefitsAvailable
+            // 
+            this.labelBenefitsAvailable.AllowDrop = true;
+            this.labelBenefitsAvailable.AutoSize = true;
+            this.labelBenefitsAvailable.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelBenefitsAvailable.Location = new System.Drawing.Point(186, 194);
+            this.labelBenefitsAvailable.Name = "labelBenefitsAvailable";
+            this.labelBenefitsAvailable.Size = new System.Drawing.Size(167, 25);
+            this.labelBenefitsAvailable.TabIndex = 0;
+            this.labelBenefitsAvailable.Text = "Benefits Available";
+            // 
+            // panelBenefitsUsed
+            // 
+            this.panelBenefitsUsed.BackColor = System.Drawing.Color.White;
+            this.panelBenefitsUsed.Controls.Add(this.lblUsedCount);
+            this.panelBenefitsUsed.Controls.Add(this.labelBenefitsUsed);
+            this.panelBenefitsUsed.Location = new System.Drawing.Point(678, 91);
+            this.panelBenefitsUsed.Name = "panelBenefitsUsed";
+            this.panelBenefitsUsed.Size = new System.Drawing.Size(512, 258);
+            this.panelBenefitsUsed.TabIndex = 4;
+            // 
+            // lblUsedCount
+            // 
+            this.lblUsedCount.AutoSize = true;
+            this.lblUsedCount.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUsedCount.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(24)))), ((int)(((byte)(96)))));
+            this.lblUsedCount.Location = new System.Drawing.Point(201, 61);
+            this.lblUsedCount.Name = "lblUsedCount";
+            this.lblUsedCount.Size = new System.Drawing.Size(70, 76);
+            this.lblUsedCount.TabIndex = 0;
+            this.lblUsedCount.Text = "0";
+            // 
+            // labelBenefitsUsed
+            // 
+            this.labelBenefitsUsed.AutoSize = true;
+            this.labelBenefitsUsed.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelBenefitsUsed.Location = new System.Drawing.Point(181, 194);
+            this.labelBenefitsUsed.Name = "labelBenefitsUsed";
+            this.labelBenefitsUsed.Size = new System.Drawing.Size(133, 25);
+            this.labelBenefitsUsed.TabIndex = 0;
+            this.labelBenefitsUsed.Text = "Benefits Used";
             // 
             // Dashboard
             // 
@@ -353,24 +345,17 @@
             this.Name = "Dashboard";
             this.Text = "Dashboard";
             this.Load += new System.EventHandler(this.Dashboard_Load);
-            this.panel7.ResumeLayout(false);
-            this.panel7.PerformLayout();
             this.panelNested.ResumeLayout(false);
             this.panelNested.PerformLayout();
-            this.panel6.ResumeLayout(false);
-            this.panel6.PerformLayout();
-            this.panel5.ResumeLayout(false);
-            this.panel5.PerformLayout();
-            this.panel8.ResumeLayout(false);
-            this.panel8.PerformLayout();
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvBenefitsAvailable)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvBenefitsUsed)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvUpcomingEvents)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
+            this.panelBenefitsAvailable.ResumeLayout(false);
+            this.panelBenefitsAvailable.PerformLayout();
+            this.panelBenefitsUsed.ResumeLayout(false);
+            this.panelBenefitsUsed.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -379,30 +364,24 @@
         #endregion
 
         private System.Windows.Forms.Label lblWelcome;
-        private System.Windows.Forms.Panel panel7;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Panel panelNested;
-        private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Panel panel8;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Label lblBenefitsUsed;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Panel panelBenefitsUsed;
+        private System.Windows.Forms.Label lblUsedCount;
+        private System.Windows.Forms.Label labelBenefitsUsed;
+        private System.Windows.Forms.Panel panelBenefitsAvailable;
+        private System.Windows.Forms.Label lblAvailableCount;
+        private System.Windows.Forms.Label labelBenefitsAvailable;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label lblBenefitAvailable;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblEventJoinedCount;
+        private System.Windows.Forms.Label lblTotalEvent;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.ListBox lstDigitalContent;
+        private System.Windows.Forms.DataGridView dgvUpcomingEvents;
+        private System.Windows.Forms.Label lblUpComingEvent;
+        private System.Windows.Forms.Label lblDigitalContentsA;
+        private System.Windows.Forms.DataGridView dgvBenefitsUsed;
+        private System.Windows.Forms.DataGridView dgvBenefitsAvailable;
+        private System.Windows.Forms.Label lblAllBenefitsAvailable;
+        private System.Windows.Forms.Label lblAllBenefitsUsed;
     }
 }

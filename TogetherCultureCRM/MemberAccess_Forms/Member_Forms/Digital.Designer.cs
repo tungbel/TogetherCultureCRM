@@ -28,249 +28,308 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label4 = new System.Windows.Forms.Label();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.dgvNeeds = new System.Windows.Forms.DataGridView();
+            this.dgvOffers = new System.Windows.Forms.DataGridView();
+            this.panelPostLbl = new System.Windows.Forms.Panel();
+            this.lblPostNewConnections = new System.Windows.Forms.Label();
+            this.panelOffersLbl = new System.Windows.Forms.Panel();
+            this.lblOffers = new System.Windows.Forms.Label();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.lblBenefitAvailable = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.panel6 = new System.Windows.Forms.Panel();
+            this.txtContactDetails = new System.Windows.Forms.TextBox();
+            this.txtCategory = new System.Windows.Forms.TextBox();
+            this.txtDescription = new System.Windows.Forms.TextBox();
+            this.cboConnectionType = new System.Windows.Forms.ComboBox();
             this.panelNested = new System.Windows.Forms.Panel();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.lblWelcome = new System.Windows.Forms.Label();
-            this.panel3.SuspendLayout();
-            this.panel1.SuspendLayout();
-            this.panel8.SuspendLayout();
-            this.panel5.SuspendLayout();
-            this.panel6.SuspendLayout();
+            this.panelNeedsLbl = new System.Windows.Forms.Panel();
+            this.lblNeeds = new System.Windows.Forms.Label();
+            this.btnSubmit = new System.Windows.Forms.Button();
+            this.txtTitle = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvNeeds)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvOffers)).BeginInit();
+            this.panelPostLbl.SuspendLayout();
+            this.panelOffersLbl.SuspendLayout();
+            this.panel4.SuspendLayout();
             this.panelNested.SuspendLayout();
-            this.panel7.SuspendLayout();
+            this.panelNeedsLbl.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // label4
-            // 
-            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(3, 79);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(91, 16);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "Benefits Used";
             // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.White;
-            this.panel3.Controls.Add(this.label2);
-            this.panel3.Controls.Add(this.label4);
-            this.panel3.Location = new System.Drawing.Point(1402, 65);
+            this.panel3.Location = new System.Drawing.Point(1802, 65);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(420, 547);
+            this.panel3.Size = new System.Drawing.Size(17, 547);
             this.panel3.TabIndex = 5;
+            // 
+            // dgvNeeds
+            // 
+            this.dgvNeeds.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvNeeds.BackgroundColor = System.Drawing.Color.White;
+            this.dgvNeeds.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dgvNeeds.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
+            this.dgvNeeds.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.dgvNeeds.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvNeeds.ColumnHeadersVisible = false;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvNeeds.DefaultCellStyle = dataGridViewCellStyle1;
+            this.dgvNeeds.GridColor = System.Drawing.Color.White;
+            this.dgvNeeds.Location = new System.Drawing.Point(98, 118);
+            this.dgvNeeds.Name = "dgvNeeds";
+            this.dgvNeeds.RowHeadersVisible = false;
+            this.dgvNeeds.RowHeadersWidth = 51;
+            this.dgvNeeds.RowTemplate.Height = 24;
+            this.dgvNeeds.Size = new System.Drawing.Size(795, 354);
+            this.dgvNeeds.TabIndex = 13;
+            // 
+            // dgvOffers
+            // 
+            this.dgvOffers.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvOffers.BackgroundColor = System.Drawing.Color.White;
+            this.dgvOffers.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dgvOffers.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
+            this.dgvOffers.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvOffers.ColumnHeadersVisible = false;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvOffers.DefaultCellStyle = dataGridViewCellStyle2;
+            this.dgvOffers.Location = new System.Drawing.Point(933, 118);
+            this.dgvOffers.Name = "dgvOffers";
+            this.dgvOffers.RowHeadersVisible = false;
+            this.dgvOffers.RowHeadersWidth = 51;
+            this.dgvOffers.RowTemplate.Height = 24;
+            this.dgvOffers.Size = new System.Drawing.Size(795, 354);
+            this.dgvOffers.TabIndex = 12;
+            // 
+            // panelPostLbl
+            // 
+            this.panelPostLbl.BackColor = System.Drawing.Color.White;
+            this.panelPostLbl.Controls.Add(this.lblPostNewConnections);
+            this.panelPostLbl.ForeColor = System.Drawing.Color.Black;
+            this.panelPostLbl.Location = new System.Drawing.Point(98, 533);
+            this.panelPostLbl.Name = "panelPostLbl";
+            this.panelPostLbl.Size = new System.Drawing.Size(1630, 40);
+            this.panelPostLbl.TabIndex = 11;
+            // 
+            // lblPostNewConnections
+            // 
+            this.lblPostNewConnections.AutoSize = true;
+            this.lblPostNewConnections.BackColor = System.Drawing.Color.Transparent;
+            this.lblPostNewConnections.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPostNewConnections.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(24)))), ((int)(((byte)(96)))));
+            this.lblPostNewConnections.Location = new System.Drawing.Point(723, 7);
+            this.lblPostNewConnections.Name = "lblPostNewConnections";
+            this.lblPostNewConnections.Size = new System.Drawing.Size(210, 25);
+            this.lblPostNewConnections.TabIndex = 2;
+            this.lblPostNewConnections.Text = "Post New Connections";
+            // 
+            // panelOffersLbl
+            // 
+            this.panelOffersLbl.BackColor = System.Drawing.Color.White;
+            this.panelOffersLbl.Controls.Add(this.lblOffers);
+            this.panelOffersLbl.ForeColor = System.Drawing.Color.Black;
+            this.panelOffersLbl.Location = new System.Drawing.Point(933, 72);
+            this.panelOffersLbl.Name = "panelOffersLbl";
+            this.panelOffersLbl.Size = new System.Drawing.Size(795, 40);
+            this.panelOffersLbl.TabIndex = 10;
+            // 
+            // lblOffers
+            // 
+            this.lblOffers.AutoSize = true;
+            this.lblOffers.BackColor = System.Drawing.Color.Transparent;
+            this.lblOffers.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblOffers.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(24)))), ((int)(((byte)(96)))));
+            this.lblOffers.Location = new System.Drawing.Point(368, 9);
+            this.lblOffers.Name = "lblOffers";
+            this.lblOffers.Size = new System.Drawing.Size(65, 25);
+            this.lblOffers.TabIndex = 2;
+            this.lblOffers.Text = "Offers";
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.White;
+            this.panel4.Controls.Add(this.btnSubmit);
+            this.panel4.Controls.Add(this.label3);
+            this.panel4.Controls.Add(this.label2);
+            this.panel4.Controls.Add(this.label5);
+            this.panel4.Controls.Add(this.label4);
+            this.panel4.Controls.Add(this.label1);
+            this.panel4.Controls.Add(this.txtContactDetails);
+            this.panel4.Controls.Add(this.txtTitle);
+            this.panel4.Controls.Add(this.txtCategory);
+            this.panel4.Controls.Add(this.txtDescription);
+            this.panel4.Controls.Add(this.cboConnectionType);
+            this.panel4.Location = new System.Drawing.Point(98, 579);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(1630, 506);
+            this.panel4.TabIndex = 14;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(14, 339);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(125, 20);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "Contact Details";
             // 
             // label2
             // 
-            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(24)))), ((int)(((byte)(96)))));
-            this.label2.Location = new System.Drawing.Point(26, 35);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(14, 259);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(41, 29);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "15";
-            // 
-            // lblBenefitAvailable
-            // 
-            this.lblBenefitAvailable.AutoSize = true;
-            this.lblBenefitAvailable.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblBenefitAvailable.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(24)))), ((int)(((byte)(96)))));
-            this.lblBenefitAvailable.Location = new System.Drawing.Point(69, 41);
-            this.lblBenefitAvailable.Name = "lblBenefitAvailable";
-            this.lblBenefitAvailable.Size = new System.Drawing.Size(41, 29);
-            this.lblBenefitAvailable.TabIndex = 0;
-            this.lblBenefitAvailable.Text = "24";
+            this.label2.Size = new System.Drawing.Size(76, 20);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "Category";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(31, 85);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(14, 179);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(115, 16);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Benefits Available";
+            this.label1.Size = new System.Drawing.Size(95, 20);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "Description";
             // 
-            // panel1
+            // txtContactDetails
             // 
-            this.panel1.BackColor = System.Drawing.Color.White;
-            this.panel1.Controls.Add(this.lblBenefitAvailable);
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(25, 68);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(161, 84);
-            this.panel1.TabIndex = 9;
+            this.txtContactDetails.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtContactDetails.Location = new System.Drawing.Point(14, 362);
+            this.txtContactDetails.Name = "txtContactDetails";
+            this.txtContactDetails.Size = new System.Drawing.Size(1591, 34);
+            this.txtContactDetails.TabIndex = 1;
             // 
-            // label11
+            // txtCategory
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(24)))), ((int)(((byte)(96)))));
-            this.label11.Location = new System.Drawing.Point(127, 236);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(41, 29);
-            this.label11.TabIndex = 0;
-            this.label11.Text = "15";
+            this.txtCategory.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCategory.Location = new System.Drawing.Point(14, 282);
+            this.txtCategory.Name = "txtCategory";
+            this.txtCategory.Size = new System.Drawing.Size(1591, 34);
+            this.txtCategory.TabIndex = 1;
             // 
-            // label12
+            // txtDescription
             // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(104, 280);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(91, 16);
-            this.label12.TabIndex = 0;
-            this.label12.Text = "Benefits Used";
+            this.txtDescription.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDescription.Location = new System.Drawing.Point(14, 201);
+            this.txtDescription.Name = "txtDescription";
+            this.txtDescription.Size = new System.Drawing.Size(1591, 34);
+            this.txtDescription.TabIndex = 1;
             // 
-            // label13
+            // cboConnectionType
             // 
-            this.label13.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(24)))), ((int)(((byte)(96)))));
-            this.label13.Location = new System.Drawing.Point(26, 35);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(41, 29);
-            this.label13.TabIndex = 0;
-            this.label13.Text = "15";
-            // 
-            // label14
-            // 
-            this.label14.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(3, 79);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(91, 16);
-            this.label14.TabIndex = 0;
-            this.label14.Text = "Benefits Used";
-            // 
-            // panel8
-            // 
-            this.panel8.BackColor = System.Drawing.Color.White;
-            this.panel8.Controls.Add(this.label13);
-            this.panel8.Controls.Add(this.label14);
-            this.panel8.Location = new System.Drawing.Point(1028, 65);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(351, 547);
-            this.panel8.TabIndex = 5;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(24)))), ((int)(((byte)(96)))));
-            this.label7.Location = new System.Drawing.Point(63, 41);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(41, 29);
-            this.label7.TabIndex = 0;
-            this.label7.Text = "15";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(40, 85);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(91, 16);
-            this.label8.TabIndex = 0;
-            this.label8.Text = "Benefits Used";
-            // 
-            // panel5
-            // 
-            this.panel5.BackColor = System.Drawing.Color.White;
-            this.panel5.Controls.Add(this.label7);
-            this.panel5.Controls.Add(this.label8);
-            this.panel5.Location = new System.Drawing.Point(25, 166);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(356, 110);
-            this.panel5.TabIndex = 4;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(24)))), ((int)(((byte)(96)))));
-            this.label9.Location = new System.Drawing.Point(372, 106);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(41, 29);
-            this.label9.TabIndex = 0;
-            this.label9.Text = "15";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(349, 150);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(91, 16);
-            this.label10.TabIndex = 0;
-            this.label10.Text = "Benefits Used";
-            // 
-            // panel6
-            // 
-            this.panel6.BackColor = System.Drawing.Color.White;
-            this.panel6.Controls.Add(this.label9);
-            this.panel6.Controls.Add(this.label10);
-            this.panel6.Location = new System.Drawing.Point(25, 286);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(673, 266);
-            this.panel6.TabIndex = 3;
+            this.cboConnectionType.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.cboConnectionType.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cboConnectionType.FormattingEnabled = true;
+            this.cboConnectionType.Items.AddRange(new object[] {
+            "Needs",
+            "Offers"});
+            this.cboConnectionType.Location = new System.Drawing.Point(14, 43);
+            this.cboConnectionType.Name = "cboConnectionType";
+            this.cboConnectionType.Size = new System.Drawing.Size(1591, 30);
+            this.cboConnectionType.TabIndex = 0;
             // 
             // panelNested
             // 
             this.panelNested.AutoScroll = true;
             this.panelNested.AutoSize = true;
-            this.panelNested.Controls.Add(this.panel6);
-            this.panelNested.Controls.Add(this.panel5);
+            this.panelNested.Controls.Add(this.panel4);
+            this.panelNested.Controls.Add(this.panelNeedsLbl);
+            this.panelNested.Controls.Add(this.panelOffersLbl);
+            this.panelNested.Controls.Add(this.panelPostLbl);
+            this.panelNested.Controls.Add(this.dgvOffers);
+            this.panelNested.Controls.Add(this.dgvNeeds);
             this.panelNested.Controls.Add(this.panel3);
-            this.panelNested.Controls.Add(this.panel8);
-            this.panelNested.Controls.Add(this.panel7);
-            this.panelNested.Controls.Add(this.panel1);
-            this.panelNested.Controls.Add(this.lblWelcome);
             this.panelNested.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelNested.Location = new System.Drawing.Point(0, 0);
             this.panelNested.Name = "panelNested";
             this.panelNested.Size = new System.Drawing.Size(1098, 596);
             this.panelNested.TabIndex = 1;
             // 
-            // panel7
+            // panelNeedsLbl
             // 
-            this.panel7.BackColor = System.Drawing.Color.White;
-            this.panel7.Controls.Add(this.label11);
-            this.panel7.Controls.Add(this.label12);
-            this.panel7.Location = new System.Drawing.Point(714, 68);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(299, 1020);
-            this.panel7.TabIndex = 6;
+            this.panelNeedsLbl.BackColor = System.Drawing.Color.White;
+            this.panelNeedsLbl.Controls.Add(this.lblNeeds);
+            this.panelNeedsLbl.ForeColor = System.Drawing.Color.Black;
+            this.panelNeedsLbl.Location = new System.Drawing.Point(98, 72);
+            this.panelNeedsLbl.Name = "panelNeedsLbl";
+            this.panelNeedsLbl.Size = new System.Drawing.Size(795, 40);
+            this.panelNeedsLbl.TabIndex = 10;
             // 
-            // lblWelcome
+            // lblNeeds
             // 
-            this.lblWelcome.AutoSize = true;
-            this.lblWelcome.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblWelcome.Location = new System.Drawing.Point(23, 19);
-            this.lblWelcome.Name = "lblWelcome";
-            this.lblWelcome.Size = new System.Drawing.Size(107, 25);
-            this.lblWelcome.TabIndex = 2;
-            this.lblWelcome.Text = "I am Digital";
+            this.lblNeeds.AutoSize = true;
+            this.lblNeeds.BackColor = System.Drawing.Color.Transparent;
+            this.lblNeeds.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNeeds.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(24)))), ((int)(((byte)(96)))));
+            this.lblNeeds.Location = new System.Drawing.Point(368, 9);
+            this.lblNeeds.Name = "lblNeeds";
+            this.lblNeeds.Size = new System.Drawing.Size(69, 25);
+            this.lblNeeds.TabIndex = 2;
+            this.lblNeeds.Text = "Needs";
+            // 
+            // btnSubmit
+            // 
+            this.btnSubmit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.btnSubmit.FlatAppearance.BorderSize = 0;
+            this.btnSubmit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSubmit.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSubmit.ForeColor = System.Drawing.Color.Black;
+            this.btnSubmit.Location = new System.Drawing.Point(769, 434);
+            this.btnSubmit.Name = "btnSubmit";
+            this.btnSubmit.Size = new System.Drawing.Size(115, 37);
+            this.btnSubmit.TabIndex = 4;
+            this.btnSubmit.Text = "Submit";
+            this.btnSubmit.UseVisualStyleBackColor = false;
+            this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
+            // 
+            // txtTitle
+            // 
+            this.txtTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTitle.Location = new System.Drawing.Point(14, 120);
+            this.txtTitle.Name = "txtTitle";
+            this.txtTitle.Size = new System.Drawing.Size(1591, 34);
+            this.txtTitle.TabIndex = 1;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(14, 98);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(41, 20);
+            this.label4.TabIndex = 3;
+            this.label4.Text = "Title";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(765, 20);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(109, 20);
+            this.label5.TabIndex = 3;
+            this.label5.Text = "Needs/Offers";
             // 
             // Digital
             // 
@@ -280,20 +339,17 @@
             this.Controls.Add(this.panelNested);
             this.Name = "Digital";
             this.Text = "Digital";
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            this.panel8.ResumeLayout(false);
-            this.panel8.PerformLayout();
-            this.panel5.ResumeLayout(false);
-            this.panel5.PerformLayout();
-            this.panel6.ResumeLayout(false);
-            this.panel6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvNeeds)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvOffers)).EndInit();
+            this.panelPostLbl.ResumeLayout(false);
+            this.panelPostLbl.PerformLayout();
+            this.panelOffersLbl.ResumeLayout(false);
+            this.panelOffersLbl.PerformLayout();
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
             this.panelNested.ResumeLayout(false);
-            this.panelNested.PerformLayout();
-            this.panel7.ResumeLayout(false);
-            this.panel7.PerformLayout();
+            this.panelNeedsLbl.ResumeLayout(false);
+            this.panelNeedsLbl.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -301,25 +357,27 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label lblBenefitAvailable;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Panel panel8;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Panel panel6;
+        private System.Windows.Forms.DataGridView dgvNeeds;
+        private System.Windows.Forms.DataGridView dgvOffers;
+        private System.Windows.Forms.Panel panelPostLbl;
+        private System.Windows.Forms.Label lblPostNewConnections;
+        private System.Windows.Forms.Panel panelOffersLbl;
+        private System.Windows.Forms.Label lblOffers;
+        private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panelNested;
-        private System.Windows.Forms.Panel panel7;
-        private System.Windows.Forms.Label lblWelcome;
+        private System.Windows.Forms.Panel panelNeedsLbl;
+        private System.Windows.Forms.Label lblNeeds;
+        private System.Windows.Forms.ComboBox cboConnectionType;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox txtContactDetails;
+        private System.Windows.Forms.TextBox txtCategory;
+        private System.Windows.Forms.TextBox txtDescription;
+        private System.Windows.Forms.Button btnSubmit;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox txtTitle;
+        private System.Windows.Forms.Label label5;
     }
 }
