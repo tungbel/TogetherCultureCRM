@@ -29,30 +29,30 @@
         private void InitializeComponent()
         {
             this.panelNested = new System.Windows.Forms.Panel();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dgvMember = new System.Windows.Forms.DataGridView();
             this.View = new System.Windows.Forms.Button();
             this.Delete = new System.Windows.Forms.Button();
             this.Edit = new System.Windows.Forms.Button();
             this.Add = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.dtpJoinedDate = new System.Windows.Forms.DateTimePicker();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.txtInterests = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txtPhone = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtEmail = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtLastName = new System.Windows.Forms.TextBox();
+            this.txtFirstName = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.lblWelcome = new System.Windows.Forms.Label();
+            this.cmbMembershipType = new System.Windows.Forms.ComboBox();
             this.panelNested.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvMember)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -61,24 +61,24 @@
             this.panelNested.AutoScroll = true;
             this.panelNested.AutoSize = true;
             this.panelNested.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.panelNested.Controls.Add(this.dataGridView1);
+            this.panelNested.Controls.Add(this.cmbMembershipType);
+            this.panelNested.Controls.Add(this.dgvMember);
             this.panelNested.Controls.Add(this.View);
             this.panelNested.Controls.Add(this.Delete);
             this.panelNested.Controls.Add(this.Edit);
             this.panelNested.Controls.Add(this.Add);
             this.panelNested.Controls.Add(this.label8);
-            this.panelNested.Controls.Add(this.dateTimePicker2);
+            this.panelNested.Controls.Add(this.dtpJoinedDate);
             this.panelNested.Controls.Add(this.label7);
-            this.panelNested.Controls.Add(this.textBox6);
+            this.panelNested.Controls.Add(this.txtInterests);
             this.panelNested.Controls.Add(this.label6);
-            this.panelNested.Controls.Add(this.textBox5);
+            this.panelNested.Controls.Add(this.txtPhone);
             this.panelNested.Controls.Add(this.label4);
-            this.panelNested.Controls.Add(this.textBox4);
             this.panelNested.Controls.Add(this.label3);
-            this.panelNested.Controls.Add(this.textBox3);
+            this.panelNested.Controls.Add(this.txtEmail);
             this.panelNested.Controls.Add(this.label2);
-            this.panelNested.Controls.Add(this.textBox2);
-            this.panelNested.Controls.Add(this.textBox1);
+            this.panelNested.Controls.Add(this.txtLastName);
+            this.panelNested.Controls.Add(this.txtFirstName);
             this.panelNested.Controls.Add(this.label5);
             this.panelNested.Controls.Add(this.panel1);
             this.panelNested.Controls.Add(this.lblWelcome);
@@ -89,16 +89,16 @@
             this.panelNested.Size = new System.Drawing.Size(1235, 745);
             this.panelNested.TabIndex = 1;
             // 
-            // dataGridView1
+            // dgvMember
             // 
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(378, 95);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 62;
-            this.dataGridView1.RowTemplate.Height = 28;
-            this.dataGridView1.Size = new System.Drawing.Size(876, 625);
-            this.dataGridView1.TabIndex = 45;
+            this.dgvMember.BackgroundColor = System.Drawing.Color.White;
+            this.dgvMember.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvMember.Location = new System.Drawing.Point(378, 95);
+            this.dgvMember.Name = "dgvMember";
+            this.dgvMember.RowHeadersWidth = 62;
+            this.dgvMember.RowTemplate.Height = 28;
+            this.dgvMember.Size = new System.Drawing.Size(876, 625);
+            this.dgvMember.TabIndex = 45;
             // 
             // View
             // 
@@ -144,6 +144,7 @@
             this.Add.TabIndex = 41;
             this.Add.Text = "Add";
             this.Add.UseVisualStyleBackColor = false;
+            this.Add.Click += new System.EventHandler(this.Add_Click);
             // 
             // label8
             // 
@@ -155,12 +156,12 @@
             this.label8.TabIndex = 40;
             this.label8.Text = "Joined Date ";
             // 
-            // dateTimePicker2
+            // dtpJoinedDate
             // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(12, 534);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(351, 26);
-            this.dateTimePicker2.TabIndex = 39;
+            this.dtpJoinedDate.Location = new System.Drawing.Point(12, 534);
+            this.dtpJoinedDate.Name = "dtpJoinedDate";
+            this.dtpJoinedDate.Size = new System.Drawing.Size(351, 26);
+            this.dtpJoinedDate.TabIndex = 39;
             // 
             // label7
             // 
@@ -172,12 +173,12 @@
             this.label7.TabIndex = 38;
             this.label7.Text = "Interests";
             // 
-            // textBox6
+            // txtInterests
             // 
-            this.textBox6.Location = new System.Drawing.Point(12, 390);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(351, 26);
-            this.textBox6.TabIndex = 37;
+            this.txtInterests.Location = new System.Drawing.Point(12, 390);
+            this.txtInterests.Name = "txtInterests";
+            this.txtInterests.Size = new System.Drawing.Size(351, 26);
+            this.txtInterests.TabIndex = 37;
             // 
             // label6
             // 
@@ -189,12 +190,12 @@
             this.label6.TabIndex = 36;
             this.label6.Text = "Phone";
             // 
-            // textBox5
+            // txtPhone
             // 
-            this.textBox5.Location = new System.Drawing.Point(12, 318);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(351, 26);
-            this.textBox5.TabIndex = 35;
+            this.txtPhone.Location = new System.Drawing.Point(12, 318);
+            this.txtPhone.Name = "txtPhone";
+            this.txtPhone.Size = new System.Drawing.Size(351, 26);
+            this.txtPhone.TabIndex = 35;
             // 
             // label4
             // 
@@ -207,14 +208,6 @@
             this.label4.Text = "Membership Type";
             this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(12, 465);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(351, 26);
-            this.textBox4.TabIndex = 33;
-            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -225,12 +218,12 @@
             this.label3.TabIndex = 32;
             this.label3.Text = "Email";
             // 
-            // textBox3
+            // txtEmail
             // 
-            this.textBox3.Location = new System.Drawing.Point(12, 250);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(351, 26);
-            this.textBox3.TabIndex = 31;
+            this.txtEmail.Location = new System.Drawing.Point(12, 250);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(351, 26);
+            this.txtEmail.TabIndex = 31;
             // 
             // label2
             // 
@@ -242,20 +235,20 @@
             this.label2.TabIndex = 30;
             this.label2.Text = "Last Name";
             // 
-            // textBox2
+            // txtLastName
             // 
-            this.textBox2.Location = new System.Drawing.Point(12, 182);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(351, 26);
-            this.textBox2.TabIndex = 29;
+            this.txtLastName.Location = new System.Drawing.Point(12, 182);
+            this.txtLastName.Name = "txtLastName";
+            this.txtLastName.Size = new System.Drawing.Size(351, 26);
+            this.txtLastName.TabIndex = 29;
             // 
-            // textBox1
+            // txtFirstName
             // 
-            this.textBox1.BackColor = System.Drawing.Color.White;
-            this.textBox1.Location = new System.Drawing.Point(12, 113);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(351, 26);
-            this.textBox1.TabIndex = 28;
+            this.txtFirstName.BackColor = System.Drawing.Color.White;
+            this.txtFirstName.Location = new System.Drawing.Point(12, 113);
+            this.txtFirstName.Name = "txtFirstName";
+            this.txtFirstName.Size = new System.Drawing.Size(351, 26);
+            this.txtFirstName.TabIndex = 28;
             // 
             // label5
             // 
@@ -300,6 +293,18 @@
             this.lblWelcome.TabIndex = 2;
             this.lblWelcome.Text = "Members List";
             // 
+            // cmbMembershipType
+            // 
+            this.cmbMembershipType.FormattingEnabled = true;
+            this.cmbMembershipType.Items.AddRange(new object[] {
+            "Community Member",
+            "Key Access Member",
+            "Creative Workspace Member"});
+            this.cmbMembershipType.Location = new System.Drawing.Point(12, 466);
+            this.cmbMembershipType.Name = "cmbMembershipType";
+            this.cmbMembershipType.Size = new System.Drawing.Size(351, 28);
+            this.cmbMembershipType.TabIndex = 46;
+            // 
             // Members
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -311,7 +316,7 @@
             this.Text = "Members";
             this.panelNested.ResumeLayout(false);
             this.panelNested.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvMember)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
@@ -325,23 +330,23 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtLastName;
+        private System.Windows.Forms.TextBox txtFirstName;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txtPhone;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox txtInterests;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
+        private System.Windows.Forms.DateTimePicker dtpJoinedDate;
         private System.Windows.Forms.Button View;
         private System.Windows.Forms.Button Delete;
         private System.Windows.Forms.Button Edit;
         private System.Windows.Forms.Button Add;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgvMember;
+        private System.Windows.Forms.ComboBox cmbMembershipType;
     }
 }
