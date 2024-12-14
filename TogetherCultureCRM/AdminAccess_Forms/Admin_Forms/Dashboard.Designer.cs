@@ -28,378 +28,332 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label2 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.lblBenefitAvailable = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.LblTotalMember = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.lblBenefitsUsed = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.lblTotalEvents = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.AppMemLbl = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.panel8 = new System.Windows.Forms.Panel();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.label9 = new System.Windows.Forms.Label();
+            this.lblLatestEvent = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.lblWelcome = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             this.panelNested = new System.Windows.Forms.Panel();
+            this.label19 = new System.Windows.Forms.Label();
+            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.label18 = new System.Windows.Forms.Label();
+            this.lblRecentBookings = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
-            this.panel4.SuspendLayout();
             this.panel8.SuspendLayout();
-            this.panel5.SuspendLayout();
-            this.panel6.SuspendLayout();
-            this.panel3.SuspendLayout();
-            this.panel7.SuspendLayout();
             this.panelNested.SuspendLayout();
+            this.panel4.SuspendLayout();
             this.SuspendLayout();
             // 
-            // label2
+            // LblTotalMember
             // 
-            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(24)))), ((int)(((byte)(96)))));
-            this.label2.Location = new System.Drawing.Point(26, 35);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(41, 29);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "15";
-            // 
-            // label4
-            // 
-            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(3, 79);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(91, 16);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "Benefits Used";
-            // 
-            // lblBenefitAvailable
-            // 
-            this.lblBenefitAvailable.AutoSize = true;
-            this.lblBenefitAvailable.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblBenefitAvailable.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(24)))), ((int)(((byte)(96)))));
-            this.lblBenefitAvailable.Location = new System.Drawing.Point(69, 41);
-            this.lblBenefitAvailable.Name = "lblBenefitAvailable";
-            this.lblBenefitAvailable.Size = new System.Drawing.Size(41, 29);
-            this.lblBenefitAvailable.TabIndex = 0;
-            this.lblBenefitAvailable.Text = "24";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(31, 85);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(115, 16);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Benefits Available";
+            this.LblTotalMember.AutoSize = true;
+            this.LblTotalMember.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblTotalMember.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(24)))), ((int)(((byte)(96)))));
+            this.LblTotalMember.Location = new System.Drawing.Point(3, 112);
+            this.LblTotalMember.Name = "LblTotalMember";
+            this.LblTotalMember.Size = new System.Drawing.Size(31, 32);
+            this.LblTotalMember.TabIndex = 0;
+            this.LblTotalMember.Text = "0";
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
-            this.panel1.Controls.Add(this.lblBenefitAvailable);
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(25, 68);
+            this.panel1.Controls.Add(this.label15);
+            this.panel1.Controls.Add(this.LblTotalMember);
+            this.panel1.Location = new System.Drawing.Point(2, 3);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(161, 84);
+            this.panel1.Size = new System.Drawing.Size(527, 159);
             this.panel1.TabIndex = 9;
             // 
-            // lblBenefitsUsed
+            // label15
             // 
-            this.lblBenefitsUsed.AutoSize = true;
-            this.lblBenefitsUsed.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblBenefitsUsed.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(24)))), ((int)(((byte)(96)))));
-            this.lblBenefitsUsed.Location = new System.Drawing.Point(72, 41);
-            this.lblBenefitsUsed.Name = "lblBenefitsUsed";
-            this.lblBenefitsUsed.Size = new System.Drawing.Size(41, 29);
-            this.lblBenefitsUsed.TabIndex = 0;
-            this.lblBenefitsUsed.Text = "15";
+            this.label15.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Modern No. 20", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(10, 9);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(182, 30);
+            this.label15.TabIndex = 6;
+            this.label15.Text = "Total Members";
             // 
-            // label3
+            // lblTotalEvents
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(49, 85);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(91, 16);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "Benefits Used";
+            this.lblTotalEvents.AutoSize = true;
+            this.lblTotalEvents.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotalEvents.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(24)))), ((int)(((byte)(96)))));
+            this.lblTotalEvents.Location = new System.Drawing.Point(3, 50);
+            this.lblTotalEvents.Name = "lblTotalEvents";
+            this.lblTotalEvents.Size = new System.Drawing.Size(31, 32);
+            this.lblTotalEvents.TabIndex = 0;
+            this.lblTotalEvents.Text = "0";
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.White;
-            this.panel2.Controls.Add(this.lblBenefitsUsed);
-            this.panel2.Controls.Add(this.label3);
-            this.panel2.Location = new System.Drawing.Point(211, 68);
+            this.panel2.Controls.Add(this.label17);
+            this.panel2.Controls.Add(this.lblTotalEvents);
+            this.panel2.Location = new System.Drawing.Point(550, 0);
+            this.panel2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(170, 84);
+            this.panel2.Size = new System.Drawing.Size(366, 359);
             this.panel2.TabIndex = 8;
             // 
-            // label5
+            // label17
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(24)))), ((int)(((byte)(96)))));
-            this.label5.Location = new System.Drawing.Point(120, 90);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(41, 29);
-            this.label5.TabIndex = 0;
-            this.label5.Text = "15";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(97, 134);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(91, 16);
-            this.label6.TabIndex = 0;
-            this.label6.Text = "Benefits Used";
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.White;
-            this.panel4.Controls.Add(this.label5);
-            this.panel4.Controls.Add(this.label6);
-            this.panel4.Location = new System.Drawing.Point(399, 68);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(299, 209);
-            this.panel4.TabIndex = 7;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(24)))), ((int)(((byte)(96)))));
-            this.label11.Location = new System.Drawing.Point(127, 236);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(41, 29);
-            this.label11.TabIndex = 0;
-            this.label11.Text = "15";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(104, 280);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(91, 16);
-            this.label12.TabIndex = 0;
-            this.label12.Text = "Benefits Used";
-            // 
-            // label13
-            // 
-            this.label13.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.label17.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(24)))), ((int)(((byte)(96)))));
-            this.label13.Location = new System.Drawing.Point(26, 35);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(41, 29);
-            this.label13.TabIndex = 0;
-            this.label13.Text = "15";
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Modern No. 20", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Location = new System.Drawing.Point(4, 9);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(211, 30);
+            this.label17.TabIndex = 11;
+            this.label17.Text = "Upcoming Events";
+            // 
+            // AppMemLbl
+            // 
+            this.AppMemLbl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.AppMemLbl.AutoSize = true;
+            this.AppMemLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
+            this.AppMemLbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(24)))), ((int)(((byte)(96)))));
+            this.AppMemLbl.Location = new System.Drawing.Point(178, 115);
+            this.AppMemLbl.Name = "AppMemLbl";
+            this.AppMemLbl.Size = new System.Drawing.Size(200, 25);
+            this.AppMemLbl.TabIndex = 0;
+            this.AppMemLbl.Text = "Approved Members";
+            this.AppMemLbl.Click += new System.EventHandler(this.label13_Click);
             // 
             // label14
             // 
             this.label14.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(3, 79);
+            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(187, 44);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(91, 16);
+            this.label14.Size = new System.Drawing.Size(155, 25);
             this.label14.TabIndex = 0;
-            this.label14.Text = "Benefits Used";
+            this.label14.Text = "Recent Activities";
             // 
             // panel8
             // 
             this.panel8.BackColor = System.Drawing.Color.White;
-            this.panel8.Controls.Add(this.label13);
+            this.panel8.Controls.Add(this.lblLatestEvent);
+            this.panel8.Controls.Add(this.label10);
+            this.panel8.Controls.Add(this.label9);
+            this.panel8.Controls.Add(this.label8);
+            this.panel8.Controls.Add(this.label7);
+            this.panel8.Controls.Add(this.AppMemLbl);
             this.panel8.Controls.Add(this.label14);
-            this.panel8.Location = new System.Drawing.Point(1028, 65);
+            this.panel8.Location = new System.Drawing.Point(922, 4);
+            this.panel8.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(351, 547);
+            this.panel8.Size = new System.Drawing.Size(481, 705);
             this.panel8.TabIndex = 5;
+            this.panel8.Paint += new System.Windows.Forms.PaintEventHandler(this.panel8_Paint);
             // 
-            // label7
+            // lblLatestEvent
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(24)))), ((int)(((byte)(96)))));
-            this.label7.Location = new System.Drawing.Point(63, 41);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(41, 29);
-            this.label7.TabIndex = 0;
-            this.label7.Text = "15";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(40, 85);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(91, 16);
-            this.label8.TabIndex = 0;
-            this.label8.Text = "Benefits Used";
-            // 
-            // panel5
-            // 
-            this.panel5.BackColor = System.Drawing.Color.White;
-            this.panel5.Controls.Add(this.label7);
-            this.panel5.Controls.Add(this.label8);
-            this.panel5.Location = new System.Drawing.Point(25, 166);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(356, 110);
-            this.panel5.TabIndex = 4;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(24)))), ((int)(((byte)(96)))));
-            this.label9.Location = new System.Drawing.Point(372, 106);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(41, 29);
-            this.label9.TabIndex = 0;
-            this.label9.Text = "15";
+            this.lblLatestEvent.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblLatestEvent.AutoSize = true;
+            this.lblLatestEvent.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold);
+            this.lblLatestEvent.ForeColor = System.Drawing.Color.Black;
+            this.lblLatestEvent.Location = new System.Drawing.Point(350, 226);
+            this.lblLatestEvent.Name = "lblLatestEvent";
+            this.lblLatestEvent.Size = new System.Drawing.Size(19, 20);
+            this.lblLatestEvent.TabIndex = 5;
+            this.lblLatestEvent.Text = "0";
+            this.lblLatestEvent.Click += new System.EventHandler(this.label11_Click);
             // 
             // label10
             // 
+            this.label10.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(349, 150);
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
+            this.label10.ForeColor = System.Drawing.Color.Black;
+            this.label10.Location = new System.Drawing.Point(402, 173);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(91, 16);
-            this.label10.TabIndex = 0;
-            this.label10.Text = "Benefits Used";
+            this.label10.Size = new System.Drawing.Size(24, 25);
+            this.label10.TabIndex = 4;
+            this.label10.Text = "0";
             // 
-            // panel6
+            // label9
             // 
-            this.panel6.BackColor = System.Drawing.Color.White;
-            this.panel6.Controls.Add(this.label9);
-            this.panel6.Controls.Add(this.label10);
-            this.panel6.Location = new System.Drawing.Point(25, 286);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(673, 266);
-            this.panel6.TabIndex = 3;
+            this.label9.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
+            this.label9.ForeColor = System.Drawing.Color.Black;
+            this.label9.Location = new System.Drawing.Point(402, 115);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(24, 25);
+            this.label9.TabIndex = 3;
+            this.label9.Text = "0";
             // 
-            // panel3
+            // label8
             // 
-            this.panel3.BackColor = System.Drawing.Color.White;
-            this.panel3.Controls.Add(this.label2);
-            this.panel3.Controls.Add(this.label4);
-            this.panel3.Location = new System.Drawing.Point(1402, 65);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(420, 547);
-            this.panel3.TabIndex = 5;
+            this.label8.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
+            this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(24)))), ((int)(((byte)(96)))));
+            this.label8.Location = new System.Drawing.Point(178, 221);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(161, 25);
+            this.label8.TabIndex = 2;
+            this.label8.Text = "Created Events";
+            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
-            // panel7
+            // label7
             // 
-            this.panel7.BackColor = System.Drawing.Color.White;
-            this.panel7.Controls.Add(this.label11);
-            this.panel7.Controls.Add(this.label12);
-            this.panel7.Location = new System.Drawing.Point(714, 68);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(299, 1020);
-            this.panel7.TabIndex = 6;
-            // 
-            // lblWelcome
-            // 
-            this.lblWelcome.AutoSize = true;
-            this.lblWelcome.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblWelcome.Location = new System.Drawing.Point(23, 19);
-            this.lblWelcome.Name = "lblWelcome";
-            this.lblWelcome.Size = new System.Drawing.Size(211, 25);
-            this.lblWelcome.TabIndex = 2;
-            this.lblWelcome.Text = "I am Admin Dashboard";
+            this.label7.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
+            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(24)))), ((int)(((byte)(96)))));
+            this.label7.Location = new System.Drawing.Point(178, 172);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(191, 25);
+            this.label7.TabIndex = 1;
+            this.label7.Text = "Rejected Members";
             // 
             // panelNested
             // 
             this.panelNested.AutoScroll = true;
             this.panelNested.AutoSize = true;
-            this.panelNested.Controls.Add(this.panel6);
-            this.panelNested.Controls.Add(this.panel5);
-            this.panelNested.Controls.Add(this.panel3);
-            this.panelNested.Controls.Add(this.panel8);
-            this.panelNested.Controls.Add(this.panel7);
+            this.panelNested.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.panelNested.Controls.Add(this.label19);
+            this.panelNested.Controls.Add(this.listBox1);
             this.panelNested.Controls.Add(this.panel4);
+            this.panelNested.Controls.Add(this.panel8);
             this.panelNested.Controls.Add(this.panel2);
             this.panelNested.Controls.Add(this.panel1);
-            this.panelNested.Controls.Add(this.lblWelcome);
             this.panelNested.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelNested.Location = new System.Drawing.Point(0, 0);
+            this.panelNested.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panelNested.Name = "panelNested";
-            this.panelNested.Size = new System.Drawing.Size(1098, 596);
+            this.panelNested.Size = new System.Drawing.Size(1235, 745);
             this.panelNested.TabIndex = 1;
+            this.panelNested.Paint += new System.Windows.Forms.PaintEventHandler(this.panelNested_Paint);
+            // 
+            // label19
+            // 
+            this.label19.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.Location = new System.Drawing.Point(32, 363);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(167, 25);
+            this.label19.TabIndex = 13;
+            this.label19.Text = "Pending Approval";
+            // 
+            // listBox1
+            // 
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 20;
+            this.listBox1.Location = new System.Drawing.Point(2, 391);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(914, 324);
+            this.listBox1.TabIndex = 12;
+            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.White;
+            this.panel4.Controls.Add(this.label18);
+            this.panel4.Controls.Add(this.lblRecentBookings);
+            this.panel4.Location = new System.Drawing.Point(2, 172);
+            this.panel4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(527, 187);
+            this.panel4.TabIndex = 9;
+            // 
+            // label18
+            // 
+            this.label18.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Modern No. 20", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Location = new System.Drawing.Point(3, 9);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(203, 30);
+            this.label18.TabIndex = 11;
+            this.label18.Text = "Recent Bookings";
+            // 
+            // lblRecentBookings
+            // 
+            this.lblRecentBookings.AutoSize = true;
+            this.lblRecentBookings.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRecentBookings.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(24)))), ((int)(((byte)(96)))));
+            this.lblRecentBookings.Location = new System.Drawing.Point(3, 141);
+            this.lblRecentBookings.Name = "lblRecentBookings";
+            this.lblRecentBookings.Size = new System.Drawing.Size(31, 32);
+            this.lblRecentBookings.TabIndex = 0;
+            this.lblRecentBookings.Text = "0";
+            this.lblRecentBookings.Click += new System.EventHandler(this.label5_Click);
             // 
             // Dashboard
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1098, 596);
+            this.ClientSize = new System.Drawing.Size(1235, 745);
             this.Controls.Add(this.panelNested);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Dashboard";
             this.Text = "Dashboard";
+            this.Load += new System.EventHandler(this.Dashboard_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
             this.panel8.ResumeLayout(false);
             this.panel8.PerformLayout();
-            this.panel5.ResumeLayout(false);
-            this.panel5.PerformLayout();
-            this.panel6.ResumeLayout(false);
-            this.panel6.PerformLayout();
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
-            this.panel7.ResumeLayout(false);
-            this.panel7.PerformLayout();
             this.panelNested.ResumeLayout(false);
             this.panelNested.PerformLayout();
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label lblBenefitAvailable;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label LblTotalMember;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label lblBenefitsUsed;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label lblTotalEvents;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label AppMemLbl;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Panel panel8;
+        private System.Windows.Forms.Panel panelNested;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Label lblRecentBookings;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label lblLatestEvent;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Panel panel7;
-        private System.Windows.Forms.Label lblWelcome;
-        private System.Windows.Forms.Panel panelNested;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.ListBox listBox1;
     }
 }

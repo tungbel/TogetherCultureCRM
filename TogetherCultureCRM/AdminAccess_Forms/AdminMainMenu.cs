@@ -60,7 +60,12 @@ namespace TogetherCultureCRM.AdminAccess_Forms
         private void btnMembers_Click(object sender, EventArgs e)
         {
             _navManager.ActivateButton(sender, panelMenu, Color.FromArgb(222, 24, 96));
-            _navManager.OpenChildForm(this, new Admin_Forms.Members(), panelDisplay);
+
+            // Pass the current AdminMainMenu instance to the Members form
+            Admin_Forms.Members membersForm = new Admin_Forms.Members(this);
+
+            // Open the Members form in the panelDisplay
+            _navManager.OpenChildForm(this, membersForm, panelDisplay);
         }
 
         // Button click event to open the Events form
@@ -126,6 +131,7 @@ namespace TogetherCultureCRM.AdminAccess_Forms
             else
                 this.WindowState = FormWindowState.Normal;
         }
+
 
         // Exit button click event to close the application
         private void btnExit_Click(object sender, EventArgs e)

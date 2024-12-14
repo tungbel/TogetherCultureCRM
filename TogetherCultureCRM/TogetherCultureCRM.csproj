@@ -93,6 +93,12 @@
     <Compile Include="AdminAccess_Forms\Admin_Forms\Events.Designer.cs">
       <DependentUpon>Events.cs</DependentUpon>
     </Compile>
+    <Compile Include="AdminAccess_Forms\Admin_Forms\NonMember.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminAccess_Forms\Admin_Forms\NonMember.Designer.cs">
+      <DependentUpon>NonMember.cs</DependentUpon>
+    </Compile>
     <Compile Include="AdminAccess_Forms\Admin_Forms\MemberProgress.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -111,8 +117,14 @@
     <Compile Include="AdminAccess_Forms\Admin_Forms\Reports.Designer.cs">
       <DependentUpon>Reports.cs</DependentUpon>
     </Compile>
-    <Compile Include="DBConnections\Constants.cs" />
-    <Compile Include="DBConnections\DBConnections.cs" />
+    <Compile Include="AdminAccess_Forms\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminAccess_Forms\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DBConnect\Constants.cs" />
+    <Compile Include="DBConnect\DBConnections.cs" />
     <Compile Include="GuestAccess_Forms\GeustMainMenu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -239,6 +251,9 @@
     <EmbeddedResource Include="AdminAccess_Forms\Admin_Forms\Events.resx">
       <DependentUpon>Events.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AdminAccess_Forms\Admin_Forms\NonMember.resx">
+      <DependentUpon>NonMember.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AdminAccess_Forms\Admin_Forms\MemberProgress.resx">
       <DependentUpon>MemberProgress.cs</DependentUpon>
     </EmbeddedResource>
@@ -247,6 +262,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AdminAccess_Forms\Admin_Forms\Reports.resx">
       <DependentUpon>Reports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminAccess_Forms\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GuestAccess_Forms\GeustMainMenu.resx">
       <DependentUpon>GeustMainMenu.cs</DependentUpon>
@@ -333,7 +351,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <DependentUpon>dbTogetherCultuture.mdf</DependentUpon>
     </Content>
-    <Content Include="DBConnections\TextFile1.txt" />
+    <Content Include="DBConnect\TextFile1.txt" />
     <Content Include="Readme.txt" />
   </ItemGroup>
   <ItemGroup>

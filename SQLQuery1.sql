@@ -1,0 +1,2 @@
+﻿ALTER TABLE Event
+ADD CreatedDate DATETIME;
